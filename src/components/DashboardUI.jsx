@@ -6,6 +6,7 @@ import GISLayerControl from './ui/GISLayerControl';
 import PipelineModal from './ui/PipelineModal';
 import FieldValidationModal from './ui/FieldValidationModal';
 import ArchitectureModal from './ui/ArchitectureModal';
+import ScenarioPlanner from './ui/ScenarioPlanner';
 
 export default function DashboardUI({
   springs,
@@ -67,6 +68,8 @@ export default function DashboardUI({
             budget={budget}
             onOpenFieldValidation={() => setActiveModal('field')}
           />
+
+          <ScenarioPlanner springs={springs} budget={budget} />
 
           {/* GIS Layer Control docked right below */}
           <GISLayerControl
