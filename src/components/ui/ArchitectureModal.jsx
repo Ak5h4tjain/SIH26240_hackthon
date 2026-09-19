@@ -1,5 +1,5 @@
-import React from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import React from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import {
   X,
   Server,
@@ -13,9 +13,9 @@ import {
   RefreshCw,
   Users,
   TrendingUp,
-  Lightbulb
-} from 'lucide-react';
-import { UNIQUE_FEATURES } from '../../data/springData';
+  Lightbulb,
+} from "lucide-react";
+import { UNIQUE_FEATURES } from "../../data/springData";
 
 export default function ArchitectureModal({ isOpen, onClose }) {
   if (!isOpen) return null;
@@ -62,27 +62,41 @@ export default function ArchitectureModal({ isOpen, onClose }) {
           <div className="p-6 overflow-y-auto space-y-6 flex-1 text-xs custom-scrollbar">
             {/* Section B: System Architecture Flow */}
             <div className="rounded-2xl border border-white/10 bg-slate-950/60 p-5">
-              <h3 className="text-sm font-bold text-white mb-4 uppercase tracking-wider text-cyan-400">
+              <h3 className="text-sm font-bold mb-4 uppercase tracking-wider text-cyan-400">
                 System Architecture Flow (Blueprint Section B)
               </h3>
 
               {/* Tier 1: Client Interfaces */}
               <div className="grid grid-cols-4 gap-3 text-center mb-4">
                 <div className="rounded-xl border border-cyan-500/30 bg-cyan-950/30 p-3">
-                  <div className="font-bold text-white text-xs">Frontend Web GIS</div>
-                  <div className="text-[10px] text-cyan-300">WebGL 3D Dashboard</div>
+                  <div className="font-bold text-white text-xs">
+                    Frontend Web GIS
+                  </div>
+                  <div className="text-[10px] text-cyan-300">
+                    WebGL 3D Dashboard
+                  </div>
                 </div>
                 <div className="rounded-xl border border-emerald-500/30 bg-emerald-950/30 p-3">
                   <div className="font-bold text-white text-xs">Mobile App</div>
-                  <div className="text-[10px] text-emerald-300">Field Data Collection</div>
+                  <div className="text-[10px] text-emerald-300">
+                    Field Data Collection
+                  </div>
                 </div>
                 <div className="rounded-xl border border-blue-500/30 bg-blue-950/30 p-3">
-                  <div className="font-bold text-white text-xs">Backend Services</div>
-                  <div className="text-[10px] text-blue-300">Spatial APIs & Pipeline</div>
+                  <div className="font-bold text-white text-xs">
+                    Backend Services
+                  </div>
+                  <div className="text-[10px] text-blue-300">
+                    Spatial APIs & Pipeline
+                  </div>
                 </div>
                 <div className="rounded-xl border border-purple-500/30 bg-purple-950/30 p-3">
-                  <div className="font-bold text-white text-xs">AI/ML Engine</div>
-                  <div className="text-[10px] text-purple-300">XGBoost & SHAP Inference</div>
+                  <div className="font-bold text-white text-xs">
+                    AI/ML Engine
+                  </div>
+                  <div className="text-[10px] text-purple-300">
+                    XGBoost & SHAP Inference
+                  </div>
                 </div>
               </div>
 
@@ -93,22 +107,29 @@ export default function ArchitectureModal({ isOpen, onClose }) {
                   Spatial + Attribute Database (PostGIS & GeoTIFF Lakehouse)
                 </div>
                 <div className="text-[11px] text-slate-400 mt-0.5">
-                  Stores DEMs, rock lithology, lineaments, rainfall grids, spring hydrographs, and field records
+                  Stores DEMs, rock lithology, lineaments, rainfall grids,
+                  spring hydrographs, and field records
                 </div>
               </div>
 
               {/* Tier 3: Processing and Inference */}
               <div className="grid grid-cols-2 gap-3 text-center">
                 <div className="rounded-xl border border-indigo-500/30 bg-indigo-950/30 p-3">
-                  <div className="font-bold text-white">GIS Processing & Spatial Analysis</div>
+                  <div className="font-bold text-white">
+                    GIS Processing & Spatial Analysis
+                  </div>
                   <div className="text-[10px] text-indigo-300 mt-1">
-                    Feature extraction, slope/aspect curvature, lineament density buffers
+                    Feature extraction, slope/aspect curvature, lineament
+                    density buffers
                   </div>
                 </div>
                 <div className="rounded-xl border border-teal-500/30 bg-teal-950/30 p-3">
-                  <div className="font-bold text-white">AI/ML Models & Explainability</div>
+                  <div className="font-bold text-white">
+                    AI/ML Models & Explainability
+                  </div>
                   <div className="text-[10px] text-teal-300 mt-1">
-                    Recharge suitability score, confidence estimation, SHAP explainability
+                    Recharge suitability score, confidence estimation, SHAP
+                    explainability
                   </div>
                 </div>
               </div>
@@ -116,7 +137,7 @@ export default function ArchitectureModal({ isOpen, onClose }) {
 
             {/* Key Features (What Makes It Unique?) */}
             <div>
-              <h3 className="text-sm font-bold text-white mb-3 uppercase tracking-wider text-emerald-400 flex items-center gap-2">
+              <h3 className="text-sm font-bold mb-3 uppercase tracking-wider text-emerald-400 flex items-center gap-2">
                 <Lightbulb className="h-4 w-4" />
                 Key Innovations (What Makes It Unique?)
               </h3>
@@ -151,7 +172,8 @@ export default function ArchitectureModal({ isOpen, onClose }) {
 
             {/* Mission Statement */}
             <div className="text-center py-2 border-t border-white/10 text-cyan-300 italic text-xs">
-              “Data-Driven Solutions for Water Secure and Resilient Himalayan Communities”
+              “Data-Driven Solutions for Water Secure and Resilient Himalayan
+              Communities”
             </div>
           </div>
         </motion.div>

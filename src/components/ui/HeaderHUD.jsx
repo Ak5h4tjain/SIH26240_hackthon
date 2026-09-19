@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Droplets,
   Layers,
@@ -7,10 +7,11 @@ import {
   Info,
   ShieldAlert,
   Activity,
-  Award
-} from 'lucide-react';
+  Award,
+} from "lucide-react";
 
 export default function HeaderHUD({
+  overviewRef,
   budget,
   totalRechargeLiters,
   revivedCount,
@@ -20,18 +21,23 @@ export default function HeaderHUD({
   onOpenFieldValidation,
   onOpenArchitecture,
   activeView,
-  setActiveView
+  setActiveView,
 }) {
-  const formattedBudget = new Intl.NumberFormat('en-IN', {
-    style: 'currency',
-    currency: 'INR',
-    maximumFractionDigits: 0
+  const formattedBudget = new Intl.NumberFormat("en-IN", {
+    style: "currency",
+    currency: "INR",
+    maximumFractionDigits: 0,
   }).format(budget);
 
-  const formattedLiters = new Intl.NumberFormat('en-IN').format(totalRechargeLiters);
+  const formattedLiters = new Intl.NumberFormat("en-IN").format(
+    totalRechargeLiters,
+  );
 
   return (
-    <header className="pointer-events-auto absolute top-0 left-0 right-0 z-40 px-6 py-4">
+    <header
+      ref={overviewRef}
+      className="pointer-events-auto absolute top-0 left-0 right-0 z-40 px-6 py-4"
+    >
       <div className="mx-auto flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-white/15 bg-slate-950/60 p-4 shadow-glass-card backdrop-blur-xl">
         {/* Brand & Project Identity */}
         <div className="flex items-center gap-3.5">
@@ -47,20 +53,26 @@ export default function HeaderHUD({
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
                 Live AI System
               </span>
-              <span className={`rounded-full px-2.5 py-0.5 text-xs font-semibold border flex items-center gap-1.5 ${
-                backendConnected
-                  ? 'bg-cyan-500/20 border-cyan-400/40 text-cyan-400'
-                  : 'bg-amber-500/20 border-amber-400/40 text-amber-400'
-              }`}>
-                <span className={`w-1.5 h-1.5 rounded-full ${backendConnected ? 'bg-cyan-400' : 'bg-amber-400'}`} />
-                {backendConnected ? 'API Live (Port 5000)' : 'Local Mode'}
+              <span
+                className={`rounded-full px-2.5 py-0.5 text-xs font-semibold border flex items-center gap-1.5 ${
+                  backendConnected
+                    ? "bg-cyan-500/20 border-cyan-400/40 text-cyan-400"
+                    : "bg-amber-500/20 border-amber-400/40 text-amber-400"
+                }`}
+              >
+                <span
+                  className={`w-1.5 h-1.5 rounded-full ${backendConnected ? "bg-cyan-400" : "bg-amber-400"}`}
+                />
+                {backendConnected ? "API Live (Port 5000)" : "Local Mode"}
               </span>
             </div>
             <h1 className="text-base font-extrabold tracking-tight text-white sm:text-lg">
-              AI-Powered Spring Revival <span className="text-cyan-400">Decision Support System</span>
+              AI-Powered Spring Revival{" "}
+              <span className="text-cyan-400">Decision Support System</span>
             </h1>
             <p className="text-xs text-slate-300">
-              From Data to Action • Reviving Springs, Strengthening Himalayan Communities
+              From Data to Action • Reviving Springs, Strengthening Himalayan
+              Communities
             </p>
           </div>
         </div>
@@ -75,7 +87,9 @@ export default function HeaderHUD({
               <span className="font-mono text-xl font-bold text-emerald-400">
                 {revivedCount}
               </span>
-              <span className="text-xs text-slate-400">/ {totalSprings} Funded</span>
+              <span className="text-xs text-slate-400">
+                / {totalSprings} Funded
+              </span>
             </div>
           </div>
 
@@ -107,12 +121,12 @@ export default function HeaderHUD({
         {/* View Switching & Modal Triggers */}
         <div className="flex items-center gap-2">
           <button
-            onClick={() => setActiveView('gis')}
-            aria-pressed={activeView === 'gis'}
+            onClick={() => setActiveView("gis")}
+            aria-pressed={activeView === "gis"}
             className={`flex items-center gap-1.5 rounded-xl px-3.5 py-2 text-xs font-semibold transition-all border ${
-              activeView === 'gis'
-                ? 'bg-cyan-500/20 border-cyan-400 text-cyan-300 shadow-neon-cyan'
-                : 'bg-slate-900/80 border-white/15 text-slate-200 hover:bg-slate-800 hover:text-white'
+              activeView === "gis"
+                ? "bg-cyan-500/20 border-cyan-400 text-cyan-300 shadow-neon-cyan"
+                : "bg-slate-900/80 border-white/15 text-slate-200 hover:bg-slate-800 hover:text-white"
             }`}
           >
             <Layers className="h-4 w-4 text-cyan-300" aria-hidden="true" />
@@ -131,7 +145,10 @@ export default function HeaderHUD({
             onClick={onOpenFieldValidation}
             className="flex items-center gap-1.5 rounded-xl border border-white/15 bg-slate-900/80 px-3.5 py-2 text-xs font-semibold text-slate-200 transition-all hover:border-emerald-400/50 hover:bg-slate-800 hover:text-white"
           >
-            <Smartphone className="h-4 w-4 text-emerald-300" aria-hidden="true" />
+            <Smartphone
+              className="h-4 w-4 text-emerald-300"
+              aria-hidden="true"
+            />
             <span>Mobile App Sync</span>
           </button>
 
