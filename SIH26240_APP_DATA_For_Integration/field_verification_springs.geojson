@@ -1,0 +1,107 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.392356,
+          27.011054
+        ]
+      },
+      "properties": {
+        "Sl_No": 2,
+        "Spring_Name": "Dhankheti",
+        "Suitability_Score": 72.25410588256001,
+        "Risk_Level": "High",
+        "Priority_Score": 28.032584411832005
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.404815,
+          27.044927
+        ]
+      },
+      "properties": {
+        "Sl_No": 9,
+        "Spring_Name": "Sampang Dhara",
+        "Suitability_Score": 71.57346554772435,
+        "Risk_Level": "High",
+        "Priority_Score": 27.811376303010416
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.404815,
+          27.044927
+        ]
+      },
+      "properties": {
+        "Sl_No": 15,
+        "Spring_Name": "Bas Ghari Dhara",
+        "Suitability_Score": 70.57346554772435,
+        "Risk_Level": "High",
+        "Priority_Score": 27.486376303010417
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.327271,
+          27.041375
+        ]
+      },
+      "properties": {
+        "Sl_No": 33,
+        "Spring_Name": "Devithan Dhara",
+        "Suitability_Score": 56.32649531908535,
+        "Risk_Level": "High",
+        "Priority_Score": 22.85611097870274
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.415966,
+          26.966009
+        ]
+      },
+      "properties": {
+        "Sl_No": 44,
+        "Spring_Name": "Soen Spring",
+        "Suitability_Score": 59.33386591127656,
+        "Risk_Level": "High",
+        "Priority_Score": 23.833506421164884
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.282185,
+          26.891003
+        ]
+      },
+      "properties": {
+        "Sl_No": 77,
+        "Spring_Name": "Whistle Khola Source",
+        "Suitability_Score": 76.10211422587697,
+        "Risk_Level": "High",
+        "Priority_Score": 29.283187123410016
+      }
+    }
+  ]
+}

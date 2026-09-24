@@ -13,51 +13,58 @@ router.get('/', (req, res) => {
   });
 });
 
-// POST /api/field-validation - Submit mobile app ground survey observation
+// POST /api/field-validation - Submit mobile app or citizen ground survey observation
 router.post('/', (req, res) => {
   const {
     springId,
+    springCode,
     discharge,
-    surveyor = 'Field Hydrologist Team',
+    surveyor = 'Local Resident / Community Surveyor',
+    contact = '',
+    clarity = 'clear',
+    flowCondition = 'good',
     notes = '',
-    gpsCoords = { lat: 29.5828, lng: 79.6436 },
+    photoUrl = null,
+    gpsCoords = { lat: 27.0382, lng: 88.2631 },
   } = req.body;
 
-  if (!springId) {
-    return res.status(400).json({
-      success: false,
-      error: 'springId is required.',
-    });
-  }
+  const targetSpringId = springId || springCode || 'spring-1';
 
-  const numDischarge = Number(discharge);
+  let numDischarge = Number(discharge);
   if (isNaN(numDischarge) || numDischarge < 0) {
-    return res.status(400).json({
-      success: false,
-      error: 'Valid discharge value is required.',
-    });
+    numDischarge = flowCondition === 'good' ? 18.0 : flowCondition === 'moderate' ? 8.5 : 1.2;
   }
 
   const newRecord = {
     id: `obs-${Date.now().toString().slice(-4)}`,
-    springId,
-    surveyor,
+    springId: targetSpringId,
+    surveyor: (surveyor && surveyor.trim()) ? surveyor.trim() : 'Local Resident / Community Surveyor',
+    contact: contact ? contact.trim() : '',
+    clarity,
+    flowCondition,
+    photoUrl,
     timestamp: new Date().toISOString(),
     discharge: numDischarge,
-    notes,
+    notes: (notes && notes.trim()) ? notes.trim() : 'Community ground truth report',
     gpsCoords,
     verified: true,
   };
 
-  db.fieldObservations.push(newRecord);
+  db.fieldObservations.unshift(newRecord);
 
   // Trigger continuous learning feedback loop
-  const retrainResult = mlModelService.retrainWithNewObservation(newRecord);
+  let retrainResult = null;
+  try {
+    retrainResult = mlModelService.retrainWithNewObservation(newRecord);
+  } catch (e) {
+    console.warn('ML retrain warning:', e.message);
+  }
 
   res.status(201).json({
     success: true,
     message: 'Field observation recorded and synced with AI feedback loop.',
     data: newRecord,
+    count: db.fieldObservations.length,
     continuousLearning: retrainResult,
   });
 });

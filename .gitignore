@@ -23,3 +23,13 @@ pnpm-debug.log*
 .idea/
 .DS_Store
 Thumbs.db
+
+# Media & Screen recordings
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+

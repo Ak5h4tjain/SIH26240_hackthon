@@ -39,7 +39,27 @@ export const api = {
   },
 
   /**
-   * Submit mobile app field survey validation
+   * Fetch all recorded field survey validations and community reports
+   */
+  async getFieldValidations() {
+    try {
+      const res = await fetch(`${BASE_URL}/field-validation`);
+      if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+      const json = await res.json();
+      return json.data || [];
+    } catch (err) {
+      console.warn('Field validation fetch error, falling back to local storage:', err.message);
+      try {
+        const local = localStorage.getItem('darjeeling_community_reports');
+        return local ? JSON.parse(local) : [];
+      } catch (e) {
+        return [];
+      }
+    }
+  },
+
+  /**
+   * Submit mobile app or citizen field survey validation
    * @param {Object} observation
    */
   async submitFieldValidation(observation) {
@@ -51,10 +71,24 @@ export const api = {
       });
       if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
       const json = await res.json();
+      try {
+        const existing = JSON.parse(localStorage.getItem('darjeeling_community_reports') || '[]');
+        localStorage.setItem('darjeeling_community_reports', JSON.stringify([json.data, ...existing]));
+      } catch (e) {}
       return json;
     } catch (err) {
       console.warn('Field validation API error, using optimistic local update:', err.message);
-      return { success: true, localOnly: true, data: observation };
+      const fallbackRecord = {
+        id: `obs-local-${Date.now().toString().slice(-4)}`,
+        ...observation,
+        timestamp: new Date().toISOString(),
+        verified: true,
+      };
+      try {
+        const existing = JSON.parse(localStorage.getItem('darjeeling_community_reports') || '[]');
+        localStorage.setItem('darjeeling_community_reports', JSON.stringify([fallbackRecord, ...existing]));
+      } catch (e) {}
+      return { success: true, localOnly: true, data: fallbackRecord };
     }
   },
 
@@ -74,6 +108,47 @@ export const api = {
       return json.data;
     } catch (err) {
       console.warn('AI predict API fallback:', err.message);
+      return null;
+    }
+  },
+
+  /**
+   * Conversational AI Hydrogeologist assistant
+   * @param {string} message
+   * @param {Object} context
+   */
+  async chatWithAI(message, context = {}) {
+    try {
+      const res = await fetch(`${BASE_URL}/ai/chat`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message, context }),
+      });
+      if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+      const json = await res.json();
+      return json.data;
+    } catch (err) {
+      console.warn('AI chat API error:', err.message);
+      return null;
+    }
+  },
+
+  /**
+   * Run district-wide climate what-if simulation
+   * @param {number} rainfallMultiplier
+   */
+  async simulateClimate(rainfallMultiplier = 1.0) {
+    try {
+      const res = await fetch(`${BASE_URL}/ai/simulate`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ rainfallMultiplier }),
+      });
+      if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+      const json = await res.json();
+      return json.data;
+    } catch (err) {
+      console.warn('Climate simulation API error:', err.message);
       return null;
     }
   },

@@ -1,240 +1,83 @@
-// Spatial + Attribute Database for Project SIH26240
+import {
+  DARJEELING_100_SPRINGS,
+  PROJECT_SUMMARY,
+  TOP_15_PRIORITY_SPRINGS,
+  FIELD_VERIFICATION_SPRINGS
+} from './darjeelingSpringsData.js';
+
+// Normalization helper for backend springs
+const normalizeSpring = (s) => {
+  const lat = s.gisCoords?.lat ?? s.latitude ?? 27.03;
+  const lng = s.gisCoords?.lng ?? s.longitude ?? 88.26;
+  const elevation = s.elevationMeters ?? (typeof s.elevation === 'string' ? parseFloat(s.elevation) : s.elevation) ?? 1500;
+  const discharge = (typeof s.historicalDischarge === 'number' ? s.historicalDischarge : s.discharge_lpm) ?? 1.2;
+  const slope = s.slopeDeg ?? (typeof s.slope === 'string' ? parseFloat(s.slope) : s.slope) ?? 24.0;
+  const households = typeof s.beneficiary_households === 'number'
+    ? s.beneficiary_households
+    : typeof s.communityBeneficiaries === 'string'
+    ? parseInt(s.communityBeneficiaries, 10) || 120
+    : 120;
+
+  const springNumber = parseInt(s.code?.replace('SP-', '') || s.id?.replace('spring-', '') || String(s.slNo || '0'), 10);
+  const isPrimary = s.rawStatus === 'PRIMARY_ZONE' || s.status === 'Primary Zone';
+
+  return {
+    ...s,
+    latitude: lat,
+    longitude: lng,
+    gisCoords: s.gisCoords || { lat, lng },
+    elevation_m: Math.round(elevation),
+    elevationMeters: elevation,
+    discharge_lpm: discharge,
+    historicalDischarge: discharge,
+    slope_deg: slope,
+    slopeDeg: slope,
+    beneficiary_households: households,
+    communityBeneficiaries: s.communityBeneficiaries || `${households} Households (~${Math.round(households * 4.8)} People)`,
+    springNumber,
+    isPrimaryZone: isPrimary,
+  };
+};
+
+const normalizedSprings = DARJEELING_100_SPRINGS.map(normalizeSpring);
+
+// Spatial + Attribute Database for Project SIH26240 - Darjeeling Hills Pilot Region
 export const db = {
-  springs: [
-    {
-      id: 'spring-a',
-      code: 'SP-01-A',
-      name: 'Spring A (Binsar Catchment)',
-      subdistrict: 'Almora, Uttarakhand',
-      elevation: '1,840 m',
-      status: 'Critical',
-      suitabilityScore: 87,
-      suitabilityTier: 'High',
-      confidence: 74,
-      coords: { x: -14, y: 12, lat: 29.5828, lng: 79.6436 },
-      historicalDischarge: 1.4,
-      projectedDischarge: 6.8,
-      dischargeTrend: [
-        { month: 'Jan (Pre)', discharge: 1.4 },
-        { month: 'Mar', discharge: 1.2 },
-        { month: 'May (Dry)', discharge: 0.6 },
-        { month: 'Jul (Intervention)', discharge: 3.1 },
-        { month: 'Sep (Post)', discharge: 5.8 },
-        { month: 'Nov (Sustained)', discharge: 6.8 },
-      ],
-      topFactors: [
-        { name: 'Geology (Limestone Karst)', contribution: '+28%', positive: true },
-        { name: 'High Monsoon Rainfall', contribution: '+22%', positive: true },
-        { name: 'Moderate Slope (12°-18°)', contribution: '+19%', positive: true },
-        { name: 'Near Structural Lineament', contribution: '+18%', positive: true },
-      ],
-      recommendedInterventions: [
-        { type: 'Contour Trench', count: 12, cost: 240000, icon: 'Shovel' },
-        { type: 'Check Dam', count: 2, cost: 300000, icon: 'Shield' },
-        { type: 'Afforestation', count: '4 Hectares', cost: 110000, icon: 'Trees' },
-      ],
-      minBudgetRequired: 650000,
-      riskLevel: 'Low (Stable bedrock, negligible slip risk)',
-      aquiferType: 'Fractured Karstic Dolomite',
-      catchmentArea: '42.8 Hectares',
-      communityBeneficiaries: '320 Households (1,450 People)',
-      interventions: [
-        { id: 'int-a1', type: 'Check Dam', offset: { x: -11, y: 15 }, height: 2.2, minBudget: 500000 },
-        { id: 'int-a2', type: 'Contour Trench', offset: { x: -16, y: 10 }, height: 1.4, minBudget: 650000 },
-        { id: 'int-a3', type: 'Afforestation Area', offset: { x: -14, y: 18 }, height: 1.8, minBudget: 650000 },
-      ],
-    },
-    {
-      id: 'spring-b',
-      code: 'SP-02-B',
-      name: 'Spring B (Kosi Valley Rim)',
-      subdistrict: 'Someshwar, Almora',
-      elevation: '1,620 m',
-      status: 'Drying Rapidly',
-      suitabilityScore: 78,
-      suitabilityTier: 'Moderate-High',
-      confidence: 81,
-      coords: { x: 18, y: -10, lat: 29.6105, lng: 79.6201 },
-      historicalDischarge: 0.8,
-      projectedDischarge: 5.2,
-      dischargeTrend: [
-        { month: 'Jan (Pre)', discharge: 0.8 },
-        { month: 'Mar', discharge: 0.5 },
-        { month: 'May (Dry)', discharge: 0.1 },
-        { month: 'Jul (Intervention)', discharge: 2.4 },
-        { month: 'Sep (Post)', discharge: 4.6 },
-        { month: 'Nov (Sustained)', discharge: 5.2 },
-      ],
-      topFactors: [
-        { name: 'High Infiltration Quartzite', contribution: '+31%', positive: true },
-        { name: 'Dense Oak-Rhododendron Canopy', contribution: '+24%', positive: true },
-        { name: 'Valley Drainage Depression', contribution: '+15%', positive: true },
-        { name: 'Steep Runoff Gradient', contribution: '-12%', positive: false },
-      ],
-      recommendedInterventions: [
-        { type: 'Check Dam Series', count: 3, cost: 450000, icon: 'Shield' },
-        { type: 'Percolation Pits', count: 25, cost: 350000, icon: 'Waves' },
-        { type: 'Contour Bunding', count: '1.2 km', cost: 400000, icon: 'Layers' },
-      ],
-      minBudgetRequired: 1200000,
-      riskLevel: 'Moderate (Monsoon minor creep zone nearby)',
-      aquiferType: 'Weathered Quartzite Fissure',
-      catchmentArea: '36.5 Hectares',
-      communityBeneficiaries: '210 Households (980 People)',
-      interventions: [
-        { id: 'int-b1', type: 'Check Dam', offset: { x: 20, y: -8 }, height: 2.4, minBudget: 1000000 },
-        { id: 'int-b2', type: 'Percolation Pit', offset: { x: 16, y: -13 }, height: 1.2, minBudget: 1200000 },
-      ],
-    },
-    {
-      id: 'spring-c',
-      code: 'SP-03-C',
-      name: 'Spring C (Almora Dhar)',
-      subdistrict: 'Hawalbagh Block',
-      elevation: '1,750 m',
-      status: 'Critical Drought Alert',
-      suitabilityScore: 92,
-      suitabilityTier: 'Very High Priority',
-      confidence: 89,
-      coords: { x: -22, y: -18, lat: 29.5982, lng: 79.6644 },
-      historicalDischarge: 2.1,
-      projectedDischarge: 9.4,
-      dischargeTrend: [
-        { month: 'Jan (Pre)', discharge: 2.1 },
-        { month: 'Mar', discharge: 1.6 },
-        { month: 'May (Dry)', discharge: 0.9 },
-        { month: 'Jul (Intervention)', discharge: 4.8 },
-        { month: 'Sep (Post)', discharge: 8.2 },
-        { month: 'Nov (Sustained)', discharge: 9.4 },
-      ],
-      topFactors: [
-        { name: 'Major Fault Line Intersection', contribution: '+34%', positive: true },
-        { name: 'Monsoon Orographic Runoff', contribution: '+26%', positive: true },
-        { name: 'High Soil Permeability Index', contribution: '+21%', positive: true },
-        { name: 'Low Human Urbanization Impact', contribution: '+11%', positive: true },
-      ],
-      recommendedInterventions: [
-        { type: 'Check Dam Cascades', count: 4, cost: 600000, icon: 'Shield' },
-        { type: 'Continuous Contour Trenching', count: '3.5 km', cost: 750000, icon: 'Shovel' },
-        { type: 'Catchment Afforestation', count: '6 Hectares', cost: 500000, icon: 'Trees' },
-      ],
-      minBudgetRequired: 1850000,
-      riskLevel: 'Low Risk (Excellent structural stability)',
-      aquiferType: 'Unconfined Alluvial & Mica Schist',
-      catchmentArea: '68.2 Hectares',
-      communityBeneficiaries: '540 Households (2,600 People)',
-      interventions: [
-        { id: 'int-c1', type: 'Check Dam', offset: { x: -20, y: -16 }, height: 2.6, minBudget: 1500000 },
-        { id: 'int-c2', type: 'Contour Trench', offset: { x: -25, y: -21 }, height: 1.5, minBudget: 1850000 },
-        { id: 'int-c3', type: 'Percolation Pit', offset: { x: -19, y: -22 }, height: 1.3, minBudget: 1850000 },
-      ],
-    },
-    {
-      id: 'spring-d',
-      code: 'SP-04-D',
-      name: 'Spring D (Ranikhet Escarpment)',
-      subdistrict: 'Tarikhet, Almora',
-      elevation: '1,960 m',
-      status: 'Perennial Degraded',
-      suitabilityScore: 64,
-      suitabilityTier: 'Moderate',
-      confidence: 68,
-      coords: { x: 22, y: 22, lat: 29.6455, lng: 79.4289 },
-      historicalDischarge: 0.5,
-      projectedDischarge: 3.8,
-      dischargeTrend: [
-        { month: 'Jan (Pre)', discharge: 0.5 },
-        { month: 'Mar', discharge: 0.4 },
-        { month: 'May (Dry)', discharge: 0.05 },
-        { month: 'Jul (Intervention)', discharge: 1.8 },
-        { month: 'Sep (Post)', discharge: 3.2 },
-        { month: 'Nov (Sustained)', discharge: 3.8 },
-      ],
-      topFactors: [
-        { name: 'Fractured Sandstone Bed', contribution: '+25%', positive: true },
-        { name: 'Pine Forest Litter Layer', contribution: '+14%', positive: true },
-        { name: 'Steep Slope (>32°)', contribution: '-18%', positive: false },
-        { name: 'Deficit Winter Snowmelt', contribution: '-12%', positive: false },
-      ],
-      recommendedInterventions: [
-        { type: 'Percolation Pits', count: 35, cost: 420000, icon: 'Waves' },
-        { type: 'Bio-engineering Gully Plugs', count: 18, cost: 380000, icon: 'Shield' },
-        { type: 'Broadleaf Mixed Afforestation', count: '5 Hectares', cost: 450000, icon: 'Trees' },
-      ],
-      minBudgetRequired: 2500000,
-      riskLevel: 'Caution: Upper slope prone to monsoon debris flows',
-      aquiferType: 'Fractured Sandstone & Siltstone',
-      catchmentArea: '29.1 Hectares',
-      communityBeneficiaries: '180 Households (750 People)',
-      interventions: [
-        { id: 'int-d1', type: 'Check Dam', offset: { x: 24, y: 19 }, height: 2.0, minBudget: 2200000 },
-        { id: 'int-d2', type: 'Percolation Pit', offset: { x: 19, y: 24 }, height: 1.2, minBudget: 2500000 },
-      ],
-    },
-    {
-      id: 'spring-e',
-      code: 'SP-05-E',
-      name: 'Spring E (Champawat Syncline)',
-      subdistrict: 'Lohaghat, Champawat',
-      elevation: '1,710 m',
-      status: 'Depleted Aquifer',
-      suitabilityScore: 84,
-      suitabilityTier: 'High Priority',
-      confidence: 79,
-      coords: { x: 2, y: -24, lat: 29.4082, lng: 80.0894 },
-      historicalDischarge: 1.1,
-      projectedDischarge: 7.6,
-      dischargeTrend: [
-        { month: 'Jan (Pre)', discharge: 1.1 },
-        { month: 'Mar', discharge: 0.7 },
-        { month: 'May (Dry)', discharge: 0.3 },
-        { month: 'Jul (Intervention)', discharge: 3.5 },
-        { month: 'Sep (Post)', discharge: 6.4 },
-        { month: 'Nov (Sustained)', discharge: 7.6 },
-      ],
-      topFactors: [
-        { name: 'Limestone Synclinal Valley', contribution: '+29%', positive: true },
-        { name: 'Lineament Density Buffer', contribution: '+23%', positive: true },
-        { name: 'Subsurface Perched Aquifer', contribution: '+20%', positive: true },
-        { name: 'High Soil Organic Carbon', contribution: '+12%', positive: true },
-      ],
-      recommendedInterventions: [
-        { type: 'Subsurface Dyke & Trench', count: 1, cost: 850000, icon: 'Layers' },
-        { type: 'Check Dam Cascade', count: 3, cost: 500000, icon: 'Shield' },
-        { type: 'Springshed Protection Fencing', count: '2.5 km', cost: 250000, icon: 'Shield' },
-      ],
-      minBudgetRequired: 3200000,
-      riskLevel: 'Low Risk',
-      aquiferType: 'Synclinal Dolomitic Limestone',
-      catchmentArea: '52.4 Hectares',
-      communityBeneficiaries: '410 Households (1,890 People)',
-      interventions: [
-        { id: 'int-e1', type: 'Check Dam', offset: { x: 4, y: -22 }, height: 2.5, minBudget: 3000000 },
-        { id: 'int-e2', type: 'Contour Trench', offset: { x: 0, y: -27 }, height: 1.6, minBudget: 3200000 },
-      ],
-    },
-  ],
+  projectSummary: PROJECT_SUMMARY,
+  springs: normalizedSprings,
+  top15Springs: normalizedSprings.filter((s) => s.isTop15),
+  fieldVerificationSprings: normalizedSprings.filter((s) => s.isFieldVerificationRequired),
 
   // Field validation observations submitted by mobile teams
   fieldObservations: [
     {
       id: 'obs-001',
-      springId: 'spring-a',
+      springId: 'spring-1',
       surveyor: 'Field Surveyor Amit Rawat',
       timestamp: '2026-08-14T09:30:00Z',
       discharge: 3.4,
-      notes: 'Initial CCT trenches finished. Moderate infiltration observed.',
-      gpsCoords: { lat: 29.5829, lng: 79.6437 },
+      notes: 'Initial CCT trenches finished at Devithan. Moderate infiltration observed.',
+      gpsCoords: { lat: 26.969786, lng: 88.366003 },
       verified: true,
     },
     {
       id: 'obs-002',
-      springId: 'spring-c',
+      springId: 'spring-3',
       surveyor: 'Field Hydrologist Priya Sharma',
       timestamp: '2026-08-28T14:15:00Z',
       discharge: 5.1,
-      notes: 'Check dam cascade successfully impounding post-monsoon gully runoff.',
-      gpsCoords: { lat: 29.5984, lng: 79.6641 },
+      notes: 'Bimla Dhara check dam cascade successfully impounding post-monsoon gully runoff.',
+      gpsCoords: { lat: 27.043502, lng: 88.377276 },
+      verified: true,
+    },
+    {
+      id: 'obs-003',
+      springId: 'spring-2',
+      surveyor: 'Senior Geologist D. Tamang',
+      timestamp: '2026-09-02T11:45:00Z',
+      discharge: 1.8,
+      notes: 'Dhankheti ground truth verification: high fracture density in phyllite bedrock.',
+      gpsCoords: { lat: 27.011054, lng: 88.392356 },
       verified: true,
     }
   ],
@@ -246,5 +89,7 @@ export const db = {
     trainingSamples: 1420,
     r2Score: 0.912,
     meanAbsoluteError: '0.24 L/min',
+    region: 'Darjeeling Hills, West Bengal',
+    totalMonitoredSprings: 100,
   },
 };

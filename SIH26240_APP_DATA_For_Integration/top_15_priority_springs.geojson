@@ -1,0 +1,290 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.379887,
+          27.053083
+        ]
+      },
+      "properties": {
+        "Sl_No": 22,
+        "Spring_Name": "Noryang Dhara",
+        "Priority_Score": 85.89449948076779,
+        "Priority_Class": "Higher Priority",
+        "Suitability_Score": 84.74117287457908,
+        "Suitability_Class": "High",
+        "Intervention": "Drainage-line recharge / small check structure"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.379778,
+          27.053061
+        ]
+      },
+      "properties": {
+        "Sl_No": 28,
+        "Spring_Name": "Forest Gate Dhara",
+        "Priority_Score": 84.4698139544983,
+        "Priority_Class": "Higher Priority",
+        "Suitability_Score": 83.71027011083149,
+        "Suitability_Class": "High",
+        "Intervention": "Contour trench / infiltration treatment"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.397799,
+          26.909175
+        ]
+      },
+      "properties": {
+        "Sl_No": 47,
+        "Spring_Name": "Kali Khola",
+        "Priority_Score": 84.3747820550335,
+        "Priority_Class": "Higher Priority",
+        "Suitability_Score": 86.71422379593089,
+        "Suitability_Class": "High",
+        "Intervention": "Drainage-line recharge / small check structure"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.397799,
+          26.909175
+        ]
+      },
+      "properties": {
+        "Sl_No": 49,
+        "Spring_Name": "Kali Khola",
+        "Priority_Score": 84.3747820550335,
+        "Priority_Class": "Higher Priority",
+        "Suitability_Score": 86.71422379593089,
+        "Suitability_Class": "High",
+        "Intervention": "Drainage-line recharge / small check structure"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.410554,
+          26.944928
+        ]
+      },
+      "properties": {
+        "Sl_No": 85,
+        "Spring_Name": "Rolak Khola Source",
+        "Priority_Score": 84.32518644234716,
+        "Priority_Class": "Higher Priority",
+        "Suitability_Score": 84.47929345495912,
+        "Suitability_Class": "High",
+        "Intervention": "Drainage-line recharge / small check structure"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.282619,
+          26.870245
+        ]
+      },
+      "properties": {
+        "Sl_No": 89,
+        "Spring_Name": "Gaurishanker Mandir Dhara",
+        "Priority_Score": 81.77716815707828,
+        "Priority_Class": "Higher Priority",
+        "Suitability_Score": 74.29896336851812,
+        "Suitability_Class": "High",
+        "Intervention": "Drainage-line recharge / small check structure"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.393702,
+          26.933586
+        ]
+      },
+      "properties": {
+        "Sl_No": 50,
+        "Spring_Name": "Baidang Jhora",
+        "Priority_Score": 80.77042690171692,
+        "Priority_Class": "Higher Priority",
+        "Suitability_Score": 72.44002220260225,
+        "Suitability_Class": "High",
+        "Intervention": "Contour trench / infiltration treatment"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.396992,
+          27.042086
+        ]
+      },
+      "properties": {
+        "Sl_No": 39,
+        "Spring_Name": "Mane dhara",
+        "Priority_Score": 80.20520188438311,
+        "Priority_Class": "Higher Priority",
+        "Suitability_Score": 77.76015746334751,
+        "Suitability_Class": "High",
+        "Intervention": "Contour trench / infiltration treatment"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.344451,
+          26.904779
+        ]
+      },
+      "properties": {
+        "Sl_No": 23,
+        "Spring_Name": "Pangrey Khola Dhara",
+        "Priority_Score": 79.69576091301664,
+        "Priority_Class": "Higher Priority",
+        "Suitability_Score": 72.87824748975008,
+        "Suitability_Class": "High",
+        "Intervention": "Drainage-line recharge / small check structure"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.377276,
+          27.043502
+        ]
+      },
+      "properties": {
+        "Sl_No": 3,
+        "Spring_Name": "Bimla Dhara",
+        "Priority_Score": 79.53145704166167,
+        "Priority_Class": "Higher Priority",
+        "Suitability_Score": 73.21981063504747,
+        "Suitability_Class": "High",
+        "Intervention": "Contour trench / infiltration treatment"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.290763,
+          26.941396
+        ]
+      },
+      "properties": {
+        "Sl_No": 65,
+        "Spring_Name": "Thulo Khola Source",
+        "Priority_Score": 79.51396853830661,
+        "Priority_Class": "Higher Priority",
+        "Suitability_Score": 70.68634297078603,
+        "Suitability_Class": "High",
+        "Intervention": "Drainage-line recharge / small check structure"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.290763,
+          26.941396
+        ]
+      },
+      "properties": {
+        "Sl_No": 64,
+        "Spring_Name": "Thulo Khola Source",
+        "Priority_Score": 79.51396853830661,
+        "Priority_Class": "Higher Priority",
+        "Suitability_Score": 70.68634297078603,
+        "Suitability_Class": "High",
+        "Intervention": "Drainage-line recharge / small check structure"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.336026,
+          26.938771
+        ]
+      },
+      "properties": {
+        "Sl_No": 52,
+        "Spring_Name": "Sajbotay Dhara",
+        "Priority_Score": 78.37965742925424,
+        "Priority_Class": "Higher Priority",
+        "Suitability_Score": 69.32155836056046,
+        "Suitability_Class": "Moderate",
+        "Intervention": "Drainage-line recharge / small check structure"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.397795,
+          26.92088
+        ]
+      },
+      "properties": {
+        "Sl_No": 54,
+        "Spring_Name": "Namung Source",
+        "Priority_Score": 77.94175875478926,
+        "Priority_Class": "Higher Priority",
+        "Suitability_Score": 72.81179337164748,
+        "Suitability_Class": "High",
+        "Intervention": "Contour trench / infiltration treatment"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.392346,
+          26.977935
+        ]
+      },
+      "properties": {
+        "Sl_No": 12,
+        "Spring_Name": "SM dhara",
+        "Priority_Score": 77.75106143765423,
+        "Priority_Class": "Higher Priority",
+        "Suitability_Score": 71.43535504526294,
+        "Suitability_Class": "High",
+        "Intervention": "Contour trench / infiltration treatment"
+      }
+    }
+  ]
+}

@@ -7,6 +7,9 @@ export default defineConfig({
   server: {
     port: 5173,
     host: true,
+    watch: {
+      ignored: ['**/*.mp4', '**/*.webm', '**/*.log', '**/scratch/**'],
+    },
     proxy: {
       '/api': {
         target: 'http://localhost:5000',

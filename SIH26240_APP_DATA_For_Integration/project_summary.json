@@ -1,0 +1,28 @@
+{
+  "project_id": "SIH26240",
+  "pilot_region": "Darjeeling Hills, West Bengal",
+  "total_springs": 100,
+  "primary_zones": 88,
+  "lower_confidence_zones": 6,
+  "field_verification_required": 6,
+  "model_derived_zones": 94,
+  "total_zone_area_km2": 111.03929999999998,
+  "mean_suitability_score": 58.22393928218672,
+  "mean_priority_score": 63.72110494317374,
+  "suitability_classes": {
+    "Moderate": 78,
+    "High": 19,
+    "Low": 3
+  },
+  "risk_levels": {
+    "Low": 75,
+    "High": 20,
+    "Moderate": 5
+  },
+  "priority_classes": {
+    "Higher Priority": 74,
+    "Lower Priority": 16,
+    "Moderate Priority": 10
+  },
+  "note": "Recharge suitability and priority are pilot decision-support indices. They are not direct measurements of groundwater recharge probability. Field verification is required for unresolved or site-sensitive locations."
+}

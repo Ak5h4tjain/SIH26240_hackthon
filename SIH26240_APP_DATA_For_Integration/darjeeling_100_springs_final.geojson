@@ -1,0 +1,3505 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.366003,
+          26.969786
+        ]
+      },
+      "properties": {
+        "Sl_No": 1,
+        "Spring Name": "Devithan",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1130.68,
+        "Slope": 24.883787155151367,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 123.68888888888888,
+        "Flow_Accumulation": 9.0,
+        "Clay_0_5cm": 273.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 58.75108275148564,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 74.12266781252444,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.9396,
+        "Evidence_Support_Index": 0.824904214559387
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.392356,
+          27.011054
+        ]
+      },
+      "properties": {
+        "Sl_No": 2,
+        "Spring Name": "Dhankheti",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1019.64,
+        "Slope": 18.755516052246094,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 144.05336191291235,
+        "Flow_Accumulation": 29.0,
+        "Clay_0_5cm": 264.0,
+        "Geology": "Phyllite",
+        "Final_Status": "FIELD_VERIFICATION_REQUIRED",
+        "Confidence_Level": "Unresolved",
+        "Recharge_Suitability_Score": 72.25410588256001,
+        "Recharge_Suitability_Class": "High",
+        "Indicative_Intervention": "Field verification before intervention",
+        "Intervention_Category": "Field Verification",
+        "Risk_Level": "High",
+        "Spring_Revival_Priority_Score": 28.032584411832005,
+        "Priority_Class": "Lower Priority",
+        "Area_km2": null,
+        "Evidence_Support_Index": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.377276,
+          27.043502
+        ]
+      },
+      "properties": {
+        "Sl_No": 3,
+        "Spring Name": "Bimla Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1669.67,
+        "Slope": 21.95222854614257,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 110.20760696961013,
+        "Flow_Accumulation": 2.0,
+        "Clay_0_5cm": 282.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 73.21981063504747,
+        "Recharge_Suitability_Class": "High",
+        "Indicative_Intervention": "Contour trench / infiltration treatment",
+        "Intervention_Category": "Contour / Infiltration",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 79.53145704166167,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.044,
+        "Evidence_Support_Index": 0.764051724137931
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.352172,
+          27.036528
+        ]
+      },
+      "properties": {
+        "Sl_No": 4,
+        "Spring Name": "Dak Bangla",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1578.63,
+        "Slope": 13.394087791442873,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 27.55190174240253,
+        "Flow_Accumulation": 4.0,
+        "Clay_0_5cm": 276.0,
+        "Geology": "Gneiss",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 55.57386385888022,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 73.54676878164742,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.8756,
+        "Evidence_Support_Index": 0.8586612284069098
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.369774,
+          27.065567
+        ]
+      },
+      "properties": {
+        "Sl_No": 5,
+        "Spring Name": "Devi Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1230.4,
+        "Slope": 20.803756713867188,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 144.05336191291235,
+        "Flow_Accumulation": 1.0,
+        "Clay_0_5cm": 277.0,
+        "Geology": "Schist",
+        "Final_Status": "LOWER_CONFIDENCE_ZONE",
+        "Confidence_Level": "Lower",
+        "Recharge_Suitability_Score": 54.18465808518384,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Moderate",
+        "Spring_Revival_Priority_Score": 34.07847968620313,
+        "Priority_Class": "Lower Priority",
+        "Area_km2": 0.5616,
+        "Evidence_Support_Index": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.369895,
+          26.97341
+        ]
+      },
+      "properties": {
+        "Sl_No": 6,
+        "Spring Name": "Manager",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1106.75,
+        "Slope": 18.337203979492188,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 248.4964390171536,
+        "Flow_Accumulation": 10.0,
+        "Clay_0_5cm": 291.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 56.92628171013594,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 71.76930444953801,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.5624,
+        "Evidence_Support_Index": 0.7768721198156683
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.349508,
+          27.034455
+        ]
+      },
+      "properties": {
+        "Sl_No": 7,
+        "Spring Name": "Nursery",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1610.59,
+        "Slope": 13.575847625732422,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 41.41607316952559,
+        "Flow_Accumulation": 3.0,
+        "Clay_0_5cm": 277.0,
+        "Geology": "Gneiss",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 54.9304101523266,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 73.19625114142241,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.8756,
+        "Evidence_Support_Index": 0.8577015355086373
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.378927,
+          27.061223
+        ]
+      },
+      "properties": {
+        "Sl_No": 8,
+        "Spring Name": "Rai Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1386.96,
+        "Slope": 33.39051818847656,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 157.0468177602951,
+        "Flow_Accumulation": 7.0,
+        "Clay_0_5cm": 274.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 65.75497404639866,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Contour trench / staggered trench",
+        "Intervention_Category": "Contour / Infiltration",
+        "Risk_Level": "High",
+        "Spring_Revival_Priority_Score": 49.614264721357,
+        "Priority_Class": "Moderate Priority",
+        "Area_km2": 1.0251,
+        "Evidence_Support_Index": 0.7817383669885865
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.404815,
+          27.044927
+        ]
+      },
+      "properties": {
+        "Sl_No": 9,
+        "Spring Name": "Sampang Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 932.54,
+        "Slope": 26.07007598876953,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 144.05336191291235,
+        "Flow_Accumulation": 12.0,
+        "Clay_0_5cm": 268.0,
+        "Geology": "Gneiss",
+        "Final_Status": "FIELD_VERIFICATION_REQUIRED",
+        "Confidence_Level": "Unresolved",
+        "Recharge_Suitability_Score": 71.57346554772435,
+        "Recharge_Suitability_Class": "High",
+        "Indicative_Intervention": "Field verification before intervention",
+        "Intervention_Category": "Field Verification",
+        "Risk_Level": "High",
+        "Spring_Revival_Priority_Score": 27.811376303010416,
+        "Priority_Class": "Lower Priority",
+        "Area_km2": null,
+        "Evidence_Support_Index": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.367814,
+          26.974497
+        ]
+      },
+      "properties": {
+        "Sl_No": 10,
+        "Spring Name": "Singh",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1075.78,
+        "Slope": 17.2628173828125,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 67.70408110494506,
+        "Flow_Accumulation": 3.0,
+        "Clay_0_5cm": 277.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 57.46568476935085,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 73.07170748103518,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.6812,
+        "Evidence_Support_Index": 0.8112955032119915
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.408086,
+          27.03723
+        ]
+      },
+      "properties": {
+        "Sl_No": 11,
+        "Spring Name": "Swimming Pool Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1016.25,
+        "Slope": 27.679563522338867,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 290.31509710417583,
+        "Flow_Accumulation": 13.0,
+        "Clay_0_5cm": 251.0,
+        "Geology": "Phyllite",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 61.73656134130439,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 71.04288384525536,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.3402,
+        "Evidence_Support_Index": 0.6724867724867725
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.392346,
+          26.977935
+        ]
+      },
+      "properties": {
+        "Sl_No": 12,
+        "Spring Name": "SM dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 796.74,
+        "Slope": 15.3317289352417,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 193.5433980694505,
+        "Flow_Accumulation": 67.0,
+        "Clay_0_5cm": 257.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 71.43535504526294,
+        "Recharge_Suitability_Class": "High",
+        "Indicative_Intervention": "Contour trench / infiltration treatment",
+        "Intervention_Category": "Contour / Infiltration",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 77.75106143765423,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.1862,
+        "Evidence_Support_Index": 0.7344461305007588
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.348315,
+          27.034334
+        ]
+      },
+      "properties": {
+        "Sl_No": 13,
+        "Spring Name": "Singhdhap",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1631.6,
+        "Slope": 15.059104919433594,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 55.10380348480506,
+        "Flow_Accumulation": 5.0,
+        "Clay_0_5cm": 283.0,
+        "Geology": "Gneiss",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 58.71006557471634,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 75.11241147670285,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.7991,
+        "Evidence_Support_Index": 0.8585792896448223
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.365293,
+          27.064836
+        ]
+      },
+      "properties": {
+        "Sl_No": 14,
+        "Spring Name": "Kanchan Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1331.28,
+        "Slope": 18.84121894836425,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 27.55190174240253,
+        "Flow_Accumulation": 1.0,
+        "Clay_0_5cm": 270.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 55.92010832084764,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 73.64729506323357,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.9539,
+        "Evidence_Support_Index": 0.8562413634269921
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.404815,
+          27.044927
+        ]
+      },
+      "properties": {
+        "Sl_No": 15,
+        "Spring Name": "Bas Ghari Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 932.54,
+        "Slope": 26.07007598876953,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 144.05336191291235,
+        "Flow_Accumulation": 12.0,
+        "Clay_0_5cm": 268.0,
+        "Geology": "Phyllite",
+        "Final_Status": "FIELD_VERIFICATION_REQUIRED",
+        "Confidence_Level": "Unresolved",
+        "Recharge_Suitability_Score": 70.57346554772435,
+        "Recharge_Suitability_Class": "High",
+        "Indicative_Intervention": "Field verification before intervention",
+        "Intervention_Category": "Field Verification",
+        "Risk_Level": "High",
+        "Spring_Revival_Priority_Score": 27.486376303010417,
+        "Priority_Class": "Lower Priority",
+        "Area_km2": null,
+        "Evidence_Support_Index": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.35293,
+          26.898091
+        ]
+      },
+      "properties": {
+        "Sl_No": 16,
+        "Spring Name": "Dhobi Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 902.11,
+        "Slope": 18.417648315429688,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 27.55190174240253,
+        "Flow_Accumulation": 38.0,
+        "Clay_0_5cm": 255.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 62.57362331067856,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 71.20099075981689,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.603,
+        "Evidence_Support_Index": 0.6638059701492537
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.40805,
+          27.0371
+        ]
+      },
+      "properties": {
+        "Sl_No": 17,
+        "Spring Name": "Dokan Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1171.38,
+        "Slope": 27.679563522338867,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 290.31509710417583,
+        "Flow_Accumulation": 13.0,
+        "Clay_0_5cm": 251.0,
+        "Geology": "Phyllite",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 61.73656134130439,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 71.44612498202945,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.1503,
+        "Evidence_Support_Index": 0.6859281437125748
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.297685,
+          26.901733
+        ]
+      },
+      "properties": {
+        "Sl_No": 18,
+        "Spring Name": null,
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1954.0,
+        "Slope": 11.325194358825684,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 107.89848749142158,
+        "Flow_Accumulation": 7.0,
+        "Clay_0_5cm": 268.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 50.92053639757796,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 67.30916929769009,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.3104,
+        "Evidence_Support_Index": 0.7282967032967033
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.364237,
+          26.966598
+        ]
+      },
+      "properties": {
+        "Sl_No": 19,
+        "Spring Name": "Ghathay",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1175.62,
+        "Slope": 20.52153205871582,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 187.5679212109597,
+        "Flow_Accumulation": 5.0,
+        "Clay_0_5cm": 239.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 49.45280348288023,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 69.54003810507648,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.297,
+        "Evidence_Support_Index": 0.8271212121212121
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.297706,
+          26.90018
+        ]
+      },
+      "properties": {
+        "Sl_No": 20,
+        "Spring Name": "ndir Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1948.46,
+        "Slope": 9.682310104370115,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 82.83214633905118,
+        "Flow_Accumulation": 4.0,
+        "Clay_0_5cm": 272.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 49.8539776640294,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 64.70055305823128,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 2.0529,
+        "Evidence_Support_Index": 0.6591188075405524
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.368548,
+          27.059032
+        ]
+      },
+      "properties": {
+        "Sl_No": 21,
+        "Spring Name": null,
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1522.73,
+        "Slope": 28.618040084838867,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 55.10380348480506,
+        "Flow_Accumulation": 5.0,
+        "Clay_0_5cm": 272.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 57.15165199091964,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 73.103433357423,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.8802,
+        "Evidence_Support_Index": 0.8175869120654397
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.379887,
+          27.053083
+        ]
+      },
+      "properties": {
+        "Sl_No": 22,
+        "Spring Name": "Noryang Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1520.42,
+        "Slope": 23.022676467895508,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 82.83214633905118,
+        "Flow_Accumulation": 55.0,
+        "Clay_0_5cm": 302.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 84.74117287457908,
+        "Recharge_Suitability_Class": "High",
+        "Indicative_Intervention": "Drainage-line recharge / small check structure",
+        "Intervention_Category": "Drainage-line Recharge",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 85.89449948076779,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.414,
+        "Evidence_Support_Index": 0.7841304347826087
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.344451,
+          26.904779
+        ]
+      },
+      "properties": {
+        "Sl_No": 23,
+        "Spring Name": "Pangrey Khola Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1184.31,
+        "Slope": 28.0842399597168,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 0.0,
+        "Flow_Accumulation": 1127.0,
+        "Clay_0_5cm": 254.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 72.87824748975008,
+        "Recharge_Suitability_Class": "High",
+        "Indicative_Intervention": "Drainage-line recharge / small check structure",
+        "Intervention_Category": "Drainage-line Recharge",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 79.69576091301664,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.8136,
+        "Evidence_Support_Index": 0.7752212389380532
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.341995,
+          26.918735
+        ]
+      },
+      "properties": {
+        "Sl_No": 24,
+        "Spring Name": "Pani Kuwa",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1719.64,
+        "Slope": 27.029584884643555,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 327.3391563485055,
+        "Flow_Accumulation": 10.0,
+        "Clay_0_5cm": 267.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 49.10914136138792,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 63.53814938964073,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.7947,
+        "Evidence_Support_Index": 0.6327859569648925
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.370231,
+          27.058905
+        ]
+      },
+      "properties": {
+        "Sl_No": 25,
+        "Spring Name": "Simana Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1503.42,
+        "Slope": 14.207261085510254,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 0.0,
+        "Flow_Accumulation": 106.0,
+        "Clay_0_5cm": 277.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 67.86826505632017,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Drainage-line recharge / small check structure",
+        "Intervention_Category": "Drainage-line Recharge",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 77.37261420355274,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.3752,
+        "Evidence_Support_Index": 0.781282722513089
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.405031,
+          27.0306
+        ]
+      },
+      "properties": {
+        "Sl_No": 26,
+        "Spring Name": "Bal Goan Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 810.38,
+        "Slope": 27.3582763671875,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 195.3264985061876,
+        "Flow_Accumulation": 6.0,
+        "Clay_0_5cm": 236.0,
+        "Geology": "Phyllite",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 61.45616890717647,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 73.77088601000847,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.4626,
+        "Evidence_Support_Index": 0.7680933852140078
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.348444,
+          27.049959
+        ]
+      },
+      "properties": {
+        "Sl_No": 27,
+        "Spring Name": "Bich Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1820.5,
+        "Slope": 29.328292846679688,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 551.9049734115122,
+        "Flow_Accumulation": 2.0,
+        "Clay_0_5cm": 279.0,
+        "Geology": "Gneiss/Schist",
+        "Final_Status": "LOWER_CONFIDENCE_ZONE",
+        "Confidence_Level": "Lower",
+        "Recharge_Suitability_Score": 37.897367303323904,
+        "Recharge_Suitability_Class": "Low",
+        "Indicative_Intervention": "Detailed field assessment",
+        "Intervention_Category": "Detailed Assessment",
+        "Risk_Level": "Moderate",
+        "Spring_Revival_Priority_Score": 27.156381103912658,
+        "Priority_Class": "Lower Priority",
+        "Area_km2": 1.8063,
+        "Evidence_Support_Index": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.379778,
+          27.053061
+        ]
+      },
+      "properties": {
+        "Sl_No": 28,
+        "Spring Name": "Forest Gate Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1520.42,
+        "Slope": 21.3574447631836,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 103.231298137963,
+        "Flow_Accumulation": 51.0,
+        "Clay_0_5cm": 302.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 83.71027011083149,
+        "Recharge_Suitability_Class": "High",
+        "Indicative_Intervention": "Contour trench / infiltration treatment",
+        "Intervention_Category": "Contour / Infiltration",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 84.4698139544983,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.2943,
+        "Evidence_Support_Index": 0.7538226299694191
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.348436,
+          27.049949
+        ]
+      },
+      "properties": {
+        "Sl_No": 29,
+        "Spring Name": "Gyalchen Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1817.4,
+        "Slope": 29.328292846679688,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 551.9049734115122,
+        "Flow_Accumulation": 2.0,
+        "Clay_0_5cm": 279.0,
+        "Geology": "Gneiss/Schist",
+        "Final_Status": "LOWER_CONFIDENCE_ZONE",
+        "Confidence_Level": "Lower",
+        "Recharge_Suitability_Score": 37.897367303323904,
+        "Recharge_Suitability_Class": "Low",
+        "Indicative_Intervention": "Detailed field assessment",
+        "Intervention_Category": "Detailed Assessment",
+        "Risk_Level": "Moderate",
+        "Spring_Revival_Priority_Score": 27.156381103912658,
+        "Priority_Class": "Lower Priority",
+        "Area_km2": 1.8063,
+        "Evidence_Support_Index": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.396123,
+          27.025794
+        ]
+      },
+      "properties": {
+        "Sl_No": 30,
+        "Spring Name": "Sanu Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 770.28,
+        "Slope": 22.792312622070312,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 270.81632441978024,
+        "Flow_Accumulation": 2.0,
+        "Clay_0_5cm": 245.0,
+        "Geology": "Phyllite",
+        "Final_Status": "LOWER_CONFIDENCE_ZONE",
+        "Confidence_Level": "Lower",
+        "Recharge_Suitability_Score": 58.605910788161,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Moderate",
+        "Spring_Revival_Priority_Score": 35.95751208496842,
+        "Priority_Class": "Lower Priority",
+        "Area_km2": 0.2097,
+        "Evidence_Support_Index": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.334083,
+          27.014595
+        ]
+      },
+      "properties": {
+        "Sl_No": 31,
+        "Spring Name": "7 No. Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1266.13,
+        "Slope": 23.47440719604492,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 55.10380348480506,
+        "Flow_Accumulation": 14.0,
+        "Clay_0_5cm": 308.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 66.73142430456426,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 76.364201578264,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.5958,
+        "Evidence_Support_Index": 0.7666163141993957
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.33439,
+          27.014501
+        ]
+      },
+      "properties": {
+        "Sl_No": 32,
+        "Spring Name": "11no. Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1220.4,
+        "Slope": 32.27888488769531,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 82.65570522720759,
+        "Flow_Accumulation": 2.0,
+        "Clay_0_5cm": 308.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 54.96291985753247,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Contour trench / staggered trench",
+        "Intervention_Category": "Contour / Infiltration",
+        "Risk_Level": "High",
+        "Spring_Revival_Priority_Score": 46.413606848434895,
+        "Priority_Class": "Moderate Priority",
+        "Area_km2": 0.4446,
+        "Evidence_Support_Index": 0.7974696356275303
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.327271,
+          27.041375
+        ]
+      },
+      "properties": {
+        "Sl_No": 33,
+        "Spring Name": "Devithan Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1658.18,
+        "Slope": 19.325363159179688,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 226.34588157384368,
+        "Flow_Accumulation": 9.0,
+        "Clay_0_5cm": 281.0,
+        "Geology": "Gneiss",
+        "Final_Status": "FIELD_VERIFICATION_REQUIRED",
+        "Confidence_Level": "Unresolved",
+        "Recharge_Suitability_Score": 56.32649531908535,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Field verification before intervention",
+        "Intervention_Category": "Field Verification",
+        "Risk_Level": "High",
+        "Spring_Revival_Priority_Score": 22.85611097870274,
+        "Priority_Class": "Lower Priority",
+        "Area_km2": null,
+        "Evidence_Support_Index": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.337184,
+          27.075792
+        ]
+      },
+      "properties": {
+        "Sl_No": 34,
+        "Spring Name": "Dhunyal Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1014.85,
+        "Slope": 19.966657638549805,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 144.05336191291235,
+        "Flow_Accumulation": 1.0,
+        "Clay_0_5cm": 250.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 48.48437729857339,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 66.95647436357241,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.3213,
+        "Evidence_Support_Index": 0.7571428571428571
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.337096,
+          27.075761
+        ]
+      },
+      "properties": {
+        "Sl_No": 35,
+        "Spring Name": "Goan Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1023.4,
+        "Slope": 19.966657638549805,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 144.05336191291235,
+        "Flow_Accumulation": 1.0,
+        "Clay_0_5cm": 250.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 48.48437729857339,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 66.95647436357241,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.3213,
+        "Evidence_Support_Index": 0.7571428571428571
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.323936,
+          27.02384
+        ]
+      },
+      "properties": {
+        "Sl_No": 36,
+        "Spring Name": "Golai Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1550.4,
+        "Slope": 27.98254776000977,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 364.43742934497897,
+        "Flow_Accumulation": 5.0,
+        "Clay_0_5cm": 279.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 48.413204675030606,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 66.54395173510567,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.1952,
+        "Evidence_Support_Index": 0.744578313253012
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.325516,
+          27.044667
+        ]
+      },
+      "properties": {
+        "Sl_No": 37,
+        "Spring Name": "Jungle Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1455.3,
+        "Slope": 18.804122924804688,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 30.92222222222222,
+        "Flow_Accumulation": 1.0,
+        "Clay_0_5cm": 272.0,
+        "Geology": "Gneiss",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 55.729202446160606,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 71.94568230416138,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 2.0313,
+        "Evidence_Support_Index": 0.8027027027027027
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.33721,
+          27.075901
+        ]
+      },
+      "properties": {
+        "Sl_No": 38,
+        "Spring Name": "Mandal Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1014.85,
+        "Slope": 19.966657638549805,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 144.05336191291235,
+        "Flow_Accumulation": 1.0,
+        "Clay_0_5cm": 250.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 48.48437729857339,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 66.92270440859902,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.3141,
+        "Evidence_Support_Index": 0.7560171919770774
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.396992,
+          27.042086
+        ]
+      },
+      "properties": {
+        "Sl_No": 39,
+        "Spring Name": "Mane dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1258.51,
+        "Slope": 22.48872756958008,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 30.92222222222222,
+        "Flow_Accumulation": 9.0,
+        "Clay_0_5cm": 279.0,
+        "Geology": "Phyllite",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 77.76015746334751,
+        "Recharge_Suitability_Class": "High",
+        "Indicative_Intervention": "Contour trench / infiltration treatment",
+        "Intervention_Category": "Contour / Infiltration",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 80.20520188438311,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.3654,
+        "Evidence_Support_Index": 0.7108374384236453
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.327561,
+          27.023654
+        ]
+      },
+      "properties": {
+        "Sl_No": 40,
+        "Spring Name": "Nipen Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1502.4,
+        "Slope": 22.754535675048828,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 175.31845677400705,
+        "Flow_Accumulation": 3.0,
+        "Clay_0_5cm": 278.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 55.77678736011736,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 71.44625138138785,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.1511,
+        "Evidence_Support_Index": 0.7852619233776389
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.327332,
+          27.044319
+        ]
+      },
+      "properties": {
+        "Sl_No": 41,
+        "Spring Name": "PokhardhuraDhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1591.18,
+        "Slope": 14.878345489501951,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 27.55190174240253,
+        "Flow_Accumulation": 4.0,
+        "Clay_0_5cm": 292.0,
+        "Geology": "Gneiss",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 59.5798266974506,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 73.15212629235788,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.2933,
+        "Evidence_Support_Index": 0.778740431454419
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.325792,
+          27.044765
+        ]
+      },
+      "properties": {
+        "Sl_No": 42,
+        "Spring Name": "Primary Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1454.2,
+        "Slope": 11.239089012145996,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 30.92222222222222,
+        "Flow_Accumulation": 1.0,
+        "Clay_0_5cm": 272.0,
+        "Geology": "Gneiss",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 49.70606742567944,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 67.53573450719101,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 2.0394,
+        "Evidence_Support_Index": 0.7560900264783761
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.413552,
+          26.963563
+        ]
+      },
+      "properties": {
+        "Sl_No": 43,
+        "Spring Name": "Elachi Spring",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1237.3,
+        "Slope": 29.83490753173828,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 323.6954624742648,
+        "Flow_Accumulation": 5.0,
+        "Clay_0_5cm": 270.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 60.98458988651164,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 75.06731914461109,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.8594,
+        "Evidence_Support_Index": 0.8191674733785093
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.415966,
+          26.966009
+        ]
+      },
+      "properties": {
+        "Sl_No": 44,
+        "Spring Name": "Soen Spring",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1421.4,
+        "Slope": 19.198081970214844,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 364.43742934497897,
+        "Flow_Accumulation": 1.0,
+        "Clay_0_5cm": 272.0,
+        "Geology": "Schist",
+        "Final_Status": "FIELD_VERIFICATION_REQUIRED",
+        "Confidence_Level": "Unresolved",
+        "Recharge_Suitability_Score": 59.33386591127656,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Field verification before intervention",
+        "Intervention_Category": "Field Verification",
+        "Risk_Level": "High",
+        "Spring_Revival_Priority_Score": 23.833506421164884,
+        "Priority_Class": "Lower Priority",
+        "Area_km2": null,
+        "Evidence_Support_Index": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.33525,
+          26.938485
+        ]
+      },
+      "properties": {
+        "Sl_No": 45,
+        "Spring Name": "Sim Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1463.75,
+        "Slope": 18.97951316833496,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 27.55190174240253,
+        "Flow_Accumulation": 3.0,
+        "Clay_0_5cm": 285.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 61.82688759682837,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 76.42875702347219,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.9395,
+        "Evidence_Support_Index": 0.8505104408352668
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.369882,
+          26.973358
+        ]
+      },
+      "properties": {
+        "Sl_No": 46,
+        "Spring Name": "Sim Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1098.75,
+        "Slope": 18.337203979492188,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 248.4964390171536,
+        "Flow_Accumulation": 10.0,
+        "Clay_0_5cm": 291.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 56.92628171013594,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 71.76930444953801,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.5624,
+        "Evidence_Support_Index": 0.7768721198156683
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.397799,
+          26.909175
+        ]
+      },
+      "properties": {
+        "Sl_No": 47,
+        "Spring Name": "Kali Khola",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1024.13,
+        "Slope": 18.089948654174805,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 0.0,
+        "Flow_Accumulation": 333.0,
+        "Clay_0_5cm": 266.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 86.71422379593089,
+        "Recharge_Suitability_Class": "High",
+        "Indicative_Intervention": "Drainage-line recharge / small check structure",
+        "Intervention_Category": "Drainage-line Recharge",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 84.3747820550335,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.6876,
+        "Evidence_Support_Index": 0.7005890052356022
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.399132,
+          26.94154
+        ]
+      },
+      "properties": {
+        "Sl_No": 48,
+        "Spring Name": "Hemay Khola",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1003.67,
+        "Slope": 15.214160919189451,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 350.2619810909184,
+        "Flow_Accumulation": 14.0,
+        "Clay_0_5cm": 268.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 62.58679787021872,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 74.17997300918341,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.7496,
+        "Evidence_Support_Index": 0.7628858024691357
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.397799,
+          26.909175
+        ]
+      },
+      "properties": {
+        "Sl_No": 49,
+        "Spring Name": "Kali Khola",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1024.13,
+        "Slope": 18.089948654174805,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 0.0,
+        "Flow_Accumulation": 333.0,
+        "Clay_0_5cm": 266.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 86.71422379593089,
+        "Recharge_Suitability_Class": "High",
+        "Indicative_Intervention": "Drainage-line recharge / small check structure",
+        "Intervention_Category": "Drainage-line Recharge",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 84.3747820550335,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.6876,
+        "Evidence_Support_Index": 0.7005890052356022
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.393702,
+          26.933586
+        ]
+      },
+      "properties": {
+        "Sl_No": 50,
+        "Spring Name": "Baidang Jhora",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1003.67,
+        "Slope": 22.355234146118164,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 144.05336191291235,
+        "Flow_Accumulation": 22.0,
+        "Clay_0_5cm": 253.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 72.44002220260225,
+        "Recharge_Suitability_Class": "High",
+        "Indicative_Intervention": "Contour trench / infiltration treatment",
+        "Intervention_Category": "Contour / Infiltration",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 80.77042690171692,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.7316,
+        "Evidence_Support_Index": 0.8183471933471934
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.376209,
+          26.927126
+        ]
+      },
+      "properties": {
+        "Sl_No": 51,
+        "Spring Name": "Thapa Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1058.65,
+        "Slope": 10.28891944885254,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 27.55190174240253,
+        "Flow_Accumulation": 4.0,
+        "Clay_0_5cm": 265.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 65.72932573378293,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 77.4848272769495,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.8612,
+        "Evidence_Support_Index": 0.8206721470019342
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.336026,
+          26.938771
+        ]
+      },
+      "properties": {
+        "Sl_No": 52,
+        "Spring Name": "Sajbotay Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1428.13,
+        "Slope": 11.003814697265623,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 0.0,
+        "Flow_Accumulation": 275.0,
+        "Clay_0_5cm": 282.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 69.32155836056046,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Drainage-line recharge / small check structure",
+        "Intervention_Category": "Drainage-line Recharge",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 78.37965742925424,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.9737,
+        "Evidence_Support_Index": 0.7906292749658003
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.37475,
+          26.927637
+        ]
+      },
+      "properties": {
+        "Sl_No": 53,
+        "Spring Name": "Panisar Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1003.67,
+        "Slope": 23.62991523742676,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 103.231298137963,
+        "Flow_Accumulation": 6.0,
+        "Clay_0_5cm": 257.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 55.75507579673904,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 73.66667684161806,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.8396,
+        "Evidence_Support_Index": 0.859637964774951
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.397795,
+          26.92088
+        ]
+      },
+      "properties": {
+        "Sl_No": 54,
+        "Spring Name": "Namung Source",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1226.4,
+        "Slope": 29.003286361694336,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 27.55190174240253,
+        "Flow_Accumulation": 9.0,
+        "Clay_0_5cm": 265.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 72.81179337164748,
+        "Recharge_Suitability_Class": "High",
+        "Indicative_Intervention": "Contour trench / infiltration treatment",
+        "Intervention_Category": "Contour / Infiltration",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 77.94175875478926,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.6525,
+        "Evidence_Support_Index": 0.7178620689655172
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.346795,
+          26.917494
+        ]
+      },
+      "properties": {
+        "Sl_No": 55,
+        "Spring Name": "Mandir Gairy Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1634.59,
+        "Slope": 30.50383758544922,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 247.18586705258764,
+        "Flow_Accumulation": 6.0,
+        "Clay_0_5cm": 277.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 50.41824504030961,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Contour trench / staggered trench",
+        "Intervention_Category": "Contour / Infiltration",
+        "Risk_Level": "High",
+        "Spring_Revival_Priority_Score": 42.76582828674928,
+        "Priority_Class": "Moderate Priority",
+        "Area_km2": 0.3996,
+        "Evidence_Support_Index": 0.6861486486486486
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.317258,
+          26.854727
+        ]
+      },
+      "properties": {
+        "Sl_No": 56,
+        "Spring Name": "Kalimati Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1030.32,
+        "Slope": 16.077980041503906,
+        "Annual_Rainfall_2023": 3244.854736328125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 226.34588157384368,
+        "Flow_Accumulation": 1.0,
+        "Clay_0_5cm": 245.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 45.88351945223007,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 62.96675972611503,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.018,
+        "Evidence_Support_Index": 0.6675
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.360933,
+          26.864728
+        ]
+      },
+      "properties": {
+        "Sl_No": 57,
+        "Spring Name": "Shiva Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 292.31,
+        "Slope": 13.789494514465332,
+        "Annual_Rainfall_2023": 3244.854736328125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 207.080365847628,
+        "Flow_Accumulation": 2.0,
+        "Clay_0_5cm": 239.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 45.330010704635946,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 69.97743068087235,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 2.2599,
+        "Evidence_Support_Index": 0.9104141776184788
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.351823,
+          26.841244
+        ]
+      },
+      "properties": {
+        "Sl_No": 58,
+        "Spring Name": "14 Mile Jhora",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 534.82,
+        "Slope": 15.456222534179688,
+        "Annual_Rainfall_2023": 3244.854736328125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 330.6228209088304,
+        "Flow_Accumulation": 5.0,
+        "Clay_0_5cm": 234.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 44.07590873145193,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 62.050189276003294,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.6551,
+        "Evidence_Support_Index": 0.6670744970092441
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.351823,
+          26.841244
+        ]
+      },
+      "properties": {
+        "Sl_No": 59,
+        "Spring Name": "Bar Pipal Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 534.82,
+        "Slope": 15.456222534179688,
+        "Annual_Rainfall_2023": 3244.854736328125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 330.6228209088304,
+        "Flow_Accumulation": 5.0,
+        "Clay_0_5cm": 234.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 44.07590873145193,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 62.050189276003294,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.6551,
+        "Evidence_Support_Index": 0.6670744970092441
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.331659,
+          26.851695
+        ]
+      },
+      "properties": {
+        "Sl_No": 60,
+        "Spring Name": "Hotel Gairy Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 859.65,
+        "Slope": 30.125377655029297,
+        "Annual_Rainfall_2023": 3244.854736328125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 226.34588157384368,
+        "Flow_Accumulation": 15.0,
+        "Clay_0_5cm": 261.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 53.83142429495565,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Contour trench / staggered trench",
+        "Intervention_Category": "Contour / Infiltration",
+        "Risk_Level": "High",
+        "Spring_Revival_Priority_Score": 43.551512108459015,
+        "Priority_Class": "Moderate Priority",
+        "Area_km2": 0.3429,
+        "Evidence_Support_Index": 0.6695538057742781
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.361372,
+          26.870334
+        ]
+      },
+      "properties": {
+        "Sl_No": 61,
+        "Spring Name": "School Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 324.43,
+        "Slope": 10.504241943359377,
+        "Annual_Rainfall_2023": 3244.854736328125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 166.08231900181167,
+        "Flow_Accumulation": 25.0,
+        "Clay_0_5cm": 243.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 51.122618452739886,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 72.39451017950735,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 2.2662,
+        "Evidence_Support_Index": 0.8944400317712471
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.284749,
+          26.841557
+        ]
+      },
+      "properties": {
+        "Sl_No": 62,
+        "Spring Name": "Jor Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 710.0,
+        "Slope": 31.14256858825684,
+        "Annual_Rainfall_2023": 3244.854736328125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 483.8584951736264,
+        "Flow_Accumulation": 5.0,
+        "Clay_0_5cm": 253.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 39.30968778517615,
+        "Recharge_Suitability_Class": "Low",
+        "Indicative_Intervention": "Contour trench / staggered trench",
+        "Intervention_Category": "Contour / Infiltration",
+        "Risk_Level": "High",
+        "Spring_Revival_Priority_Score": 37.13827828796772,
+        "Priority_Class": "Lower Priority",
+        "Area_km2": 1.5606,
+        "Evidence_Support_Index": 0.5826989619377163
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.287963,
+          26.843612
+        ]
+      },
+      "properties": {
+        "Sl_No": 63,
+        "Spring Name": "Sarkarey Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 811.63,
+        "Slope": 24.416967391967773,
+        "Annual_Rainfall_2023": 3244.854736328125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 264.7514776236532,
+        "Flow_Accumulation": 5.0,
+        "Clay_0_5cm": 241.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 49.99874111357848,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 62.66190377202396,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.0161,
+        "Evidence_Support_Index": 0.5887511071744906
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.290763,
+          26.941396
+        ]
+      },
+      "properties": {
+        "Sl_No": 64,
+        "Spring Name": "Thulo Khola Source",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1830.42,
+        "Slope": 12.285534858703612,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 0.0,
+        "Flow_Accumulation": 207.0,
+        "Clay_0_5cm": 296.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 70.68634297078603,
+        "Recharge_Suitability_Class": "High",
+        "Indicative_Intervention": "Drainage-line recharge / small check structure",
+        "Intervention_Category": "Drainage-line Recharge",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 79.51396853830661,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.3437,
+        "Evidence_Support_Index": 0.8056932350971199
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.290763,
+          26.941396
+        ]
+      },
+      "properties": {
+        "Sl_No": 65,
+        "Spring Name": "Thulo Khola Source",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1830.42,
+        "Slope": 12.285534858703612,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 0.0,
+        "Flow_Accumulation": 207.0,
+        "Clay_0_5cm": 296.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 70.68634297078603,
+        "Recharge_Suitability_Class": "High",
+        "Indicative_Intervention": "Drainage-line recharge / small check structure",
+        "Intervention_Category": "Drainage-line Recharge",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 79.51396853830661,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.3437,
+        "Evidence_Support_Index": 0.8056932350971199
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.291143,
+          26.917645
+        ]
+      },
+      "properties": {
+        "Sl_No": 66,
+        "Spring Name": "Ramitey Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1674.89,
+        "Slope": 23.58287048339844,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 214.0138117878648,
+        "Flow_Accumulation": 7.0,
+        "Clay_0_5cm": 282.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 57.47038864954273,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 73.30890781573103,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.2942,
+        "Evidence_Support_Index": 0.8191237830319889
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.292486,
+          26.938527
+        ]
+      },
+      "properties": {
+        "Sl_No": 67,
+        "Spring Name": "Gokul Jhora Source",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1851.35,
+        "Slope": 21.12371253967285,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 340.14444444444445,
+        "Flow_Accumulation": 13.0,
+        "Clay_0_5cm": 283.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 54.99123274066099,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 71.4331163703305,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.6264,
+        "Evidence_Support_Index": 0.7979166666666667
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.292486,
+          26.938527
+        ]
+      },
+      "properties": {
+        "Sl_No": 68,
+        "Spring Name": "Gokul Jhora Source",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1851.35,
+        "Slope": 21.12371253967285,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 340.14444444444445,
+        "Flow_Accumulation": 13.0,
+        "Clay_0_5cm": 283.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 54.99123274066099,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 71.4331163703305,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.6264,
+        "Evidence_Support_Index": 0.7979166666666667
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.323941,
+          26.85119
+        ]
+      },
+      "properties": {
+        "Sl_No": 69,
+        "Spring Name": "Mathilo Khola",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 940.13,
+        "Slope": 34.44968795776367,
+        "Annual_Rainfall_2023": 3244.854736328125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 283.7028712552836,
+        "Flow_Accumulation": 3.0,
+        "Clay_0_5cm": 242.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 40.75447783264244,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Contour trench / staggered trench",
+        "Intervention_Category": "Contour / Infiltration",
+        "Risk_Level": "High",
+        "Spring_Revival_Priority_Score": 37.4154052956088,
+        "Priority_Class": "Lower Priority",
+        "Area_km2": 1.4625,
+        "Evidence_Support_Index": 0.5728307692307693
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.290278,
+          26.917243
+        ]
+      },
+      "properties": {
+        "Sl_No": 70,
+        "Spring Name": "Ramitey Dhara II",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1651.88,
+        "Slope": 27.834741592407227,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 151.0046937986269,
+        "Flow_Accumulation": 4.0,
+        "Clay_0_5cm": 282.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 56.32665398394493,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 70.57021648719757,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.3194,
+        "Evidence_Support_Index": 0.7468963165075034
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.285842,
+          26.898523
+        ]
+      },
+      "properties": {
+        "Sl_No": 71,
+        "Spring Name": "Kharey Khola Source",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1542.05,
+        "Slope": 27.8466796875,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 27.55190174240253,
+        "Flow_Accumulation": 16.0,
+        "Clay_0_5cm": 274.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 62.5554771178806,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 73.64380998751172,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.5544,
+        "Evidence_Support_Index": 0.7455357142857142
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.266805,
+          26.84321
+        ]
+      },
+      "properties": {
+        "Sl_No": 72,
+        "Spring Name": "Chilauney Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 842.19,
+        "Slope": 32.652774810791016,
+        "Annual_Rainfall_2023": 3244.854736328125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 123.68888888888888,
+        "Flow_Accumulation": 4.0,
+        "Clay_0_5cm": 250.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 49.61855755719722,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Contour trench / staggered trench",
+        "Intervention_Category": "Contour / Infiltration",
+        "Risk_Level": "High",
+        "Spring_Revival_Priority_Score": 43.2497772875938,
+        "Priority_Class": "Moderate Priority",
+        "Area_km2": 0.5742,
+        "Evidence_Support_Index": 0.7242946708463951
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.26636,
+          26.870175
+        ]
+      },
+      "properties": {
+        "Sl_No": 73,
+        "Spring Name": "Ek Dharey",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1349.95,
+        "Slope": 28.48394203186035,
+        "Annual_Rainfall_2023": 3244.854736328125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 396.72494654426913,
+        "Flow_Accumulation": 3.0,
+        "Clay_0_5cm": 250.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 42.6140706431018,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 59.51992047561252,
+        "Priority_Class": "Moderate Priority",
+        "Area_km2": 0.9639,
+        "Evidence_Support_Index": 0.6070961718020542
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.252752,
+          26.865667
+        ]
+      },
+      "properties": {
+        "Sl_No": 74,
+        "Spring Name": "Ghangeri Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1235.0,
+        "Slope": 31.24423789978028,
+        "Annual_Rainfall_2023": 3244.854736328125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 309.3165326215613,
+        "Flow_Accumulation": 2.0,
+        "Clay_0_5cm": 260.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 44.35541986068381,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Contour trench / staggered trench",
+        "Intervention_Category": "Contour / Infiltration",
+        "Risk_Level": "High",
+        "Spring_Revival_Priority_Score": 39.0281488173596,
+        "Priority_Class": "Lower Priority",
+        "Area_km2": 1.0647,
+        "Evidence_Support_Index": 0.595519864750634
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.267063,
+          26.869923
+        ]
+      },
+      "properties": {
+        "Sl_No": 75,
+        "Spring Name": "Saatkanya Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1376.64,
+        "Slope": 35.37360000610352,
+        "Annual_Rainfall_2023": 3244.854736328125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 336.3572282772506,
+        "Flow_Accumulation": 6.0,
+        "Clay_0_5cm": 250.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 40.57002773696323,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Contour trench / staggered trench",
+        "Intervention_Category": "Contour / Infiltration",
+        "Risk_Level": "High",
+        "Spring_Revival_Priority_Score": 37.9484943086307,
+        "Priority_Class": "Lower Priority",
+        "Area_km2": 1.7901,
+        "Evidence_Support_Index": 0.6032428355957768
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.256618,
+          26.868927
+        ]
+      },
+      "properties": {
+        "Sl_No": 76,
+        "Spring Name": "Simana Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1238.67,
+        "Slope": 25.335880279541016,
+        "Annual_Rainfall_2023": 3244.854736328125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 189.5613802198976,
+        "Flow_Accumulation": 3.0,
+        "Clay_0_5cm": 266.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 54.76548576045953,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 70.02945970649515,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.3158,
+        "Evidence_Support_Index": 0.754890560875513
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.282185,
+          26.891003
+        ]
+      },
+      "properties": {
+        "Sl_No": 77,
+        "Spring Name": "Whistle Khola Source",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1510.33,
+        "Slope": 23.11885452270508,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 0.0,
+        "Flow_Accumulation": 709.0,
+        "Clay_0_5cm": 269.0,
+        "Geology": "Schist",
+        "Final_Status": "FIELD_VERIFICATION_REQUIRED",
+        "Confidence_Level": "Unresolved",
+        "Recharge_Suitability_Score": 76.10211422587697,
+        "Recharge_Suitability_Class": "High",
+        "Indicative_Intervention": "Field verification before intervention",
+        "Intervention_Category": "Field Verification",
+        "Risk_Level": "High",
+        "Spring_Revival_Priority_Score": 29.283187123410016,
+        "Priority_Class": "Lower Priority",
+        "Area_km2": null,
+        "Evidence_Support_Index": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.406467,
+          26.946829
+        ]
+      },
+      "properties": {
+        "Sl_No": 78,
+        "Spring Name": "BansghariDhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 931.95,
+        "Slope": 37.35920715332031,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 166.08231900181167,
+        "Flow_Accumulation": 5.0,
+        "Clay_0_5cm": 258.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 58.16560902069302,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Contour trench / staggered trench",
+        "Intervention_Category": "Contour / Infiltration",
+        "Risk_Level": "High",
+        "Spring_Revival_Priority_Score": 45.95020143639813,
+        "Priority_Class": "Moderate Priority",
+        "Area_km2": 1.5408,
+        "Evidence_Support_Index": 0.7203271028037385
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.274328,
+          26.883477
+        ]
+      },
+      "properties": {
+        "Sl_No": 79,
+        "Spring Name": "Bulbuley Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1420.1,
+        "Slope": 23.905920028686523,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 123.68888888888888,
+        "Flow_Accumulation": 2.0,
+        "Clay_0_5cm": 249.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 50.433565431651175,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 69.2233166299513,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.4463,
+        "Evidence_Support_Index": 0.8002177971375234
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.381527,
+          26.975459
+        ]
+      },
+      "properties": {
+        "Sl_No": 80,
+        "Spring Name": "Charcharey Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 989.75,
+        "Slope": 28.83539581298828,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 391.2131733245381,
+        "Flow_Accumulation": 27.0,
+        "Clay_0_5cm": 261.0,
+        "Geology": "Schist",
+        "Final_Status": "LOWER_CONFIDENCE_ZONE",
+        "Confidence_Level": "Lower",
+        "Recharge_Suitability_Score": 62.51642451251998,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Moderate",
+        "Spring_Revival_Priority_Score": 37.619480417821,
+        "Priority_Class": "Lower Priority",
+        "Area_km2": 1.1439,
+        "Evidence_Support_Index": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.318112,
+          26.951341
+        ]
+      },
+      "properties": {
+        "Sl_No": 81,
+        "Spring Name": "DevithanDhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1703.51,
+        "Slope": 11.608909606933594,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 61.84444444444444,
+        "Flow_Accumulation": 1.0,
+        "Clay_0_5cm": 281.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 51.7686997697991,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 67.81804318943519,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 2.0835,
+        "Evidence_Support_Index": 0.7311231101511879
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.263542,
+          26.82627
+        ]
+      },
+      "properties": {
+        "Sl_No": 82,
+        "Spring Name": "Dhobi Khola Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1114.19,
+        "Slope": 5.553112030029297,
+        "Annual_Rainfall_2023": 3244.854736328125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 27.55190174240253,
+        "Flow_Accumulation": 5.0,
+        "Clay_0_5cm": 252.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 49.00555112626623,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 67.85732101767857,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.9305,
+        "Evidence_Support_Index": 0.7784848484848486
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.342848,
+          26.940846
+        ]
+      },
+      "properties": {
+        "Sl_No": 83,
+        "Spring Name": "Gokul Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1230.14,
+        "Slope": 21.0175838470459,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 124.24821950857675,
+        "Flow_Accumulation": 1.0,
+        "Clay_0_5cm": 255.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 50.700279986587525,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 71.62142665365327,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.9026,
+        "Evidence_Support_Index": 0.8757095553453169
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.317615,
+          26.904922
+        ]
+      },
+      "properties": {
+        "Sl_No": 84,
+        "Spring Name": "JungpanaThuloKhola",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1407.46,
+        "Slope": 23.603221893310547,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 63.18712673996586,
+        "Flow_Accumulation": 8.0,
+        "Clay_0_5cm": 276.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 61.55435942469932,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 75.55703045861833,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.0854,
+        "Evidence_Support_Index": 0.8259950248756219
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.410554,
+          26.944928
+        ]
+      },
+      "properties": {
+        "Sl_No": 85,
+        "Spring Name": "Rolak Khola Source",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 822.89,
+        "Slope": 27.983922958374023,
+        "Annual_Rainfall_2023": 4049.5537109375,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 0.0,
+        "Flow_Accumulation": 286.0,
+        "Clay_0_5cm": 260.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 84.47929345495912,
+        "Recharge_Suitability_Class": "High",
+        "Indicative_Intervention": "Drainage-line recharge / small check structure",
+        "Intervention_Category": "Drainage-line Recharge",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 84.32518644234716,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.3257,
+        "Evidence_Support_Index": 0.7361846571622539
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.344163,
+          26.939639
+        ]
+      },
+      "properties": {
+        "Sl_No": 86,
+        "Spring Name": "Sim Gairy",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1246.11,
+        "Slope": 22.91492462158203,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 103.231298137963,
+        "Flow_Accumulation": 11.0,
+        "Clay_0_5cm": 255.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 57.24752887905491,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 74.1828142132831,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.989,
+        "Evidence_Support_Index": 0.8519683257918552
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.2889,
+          26.903722
+        ]
+      },
+      "properties": {
+        "Sl_No": 87,
+        "Spring Name": "BholayDhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1636.78,
+        "Slope": 38.00187683105469,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 218.20200462068905,
+        "Flow_Accumulation": 9.0,
+        "Clay_0_5cm": 279.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 46.93041617697739,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Contour trench / staggered trench",
+        "Intervention_Category": "Contour / Infiltration",
+        "Risk_Level": "High",
+        "Spring_Revival_Priority_Score": 42.25041675358065,
+        "Priority_Class": "Moderate Priority",
+        "Area_km2": 1.0287,
+        "Evidence_Support_Index": 0.7178477690288714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.300027,
+          26.875879
+        ]
+      },
+      "properties": {
+        "Sl_No": 88,
+        "Spring Name": "Dara GaonDhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1345.45,
+        "Slope": 29.403053283691406,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 92.76666666666668,
+        "Flow_Accumulation": 1.0,
+        "Clay_0_5cm": 270.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 51.24442293315058,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 69.61065522620548,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.1682,
+        "Evidence_Support_Index": 0.7996147919876733
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.282619,
+          26.870245
+        ]
+      },
+      "properties": {
+        "Sl_No": 89,
+        "Spring Name": "Gaurishanker Mandir Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1290.19,
+        "Slope": 21.205087661743164,
+        "Annual_Rainfall_2023": 3244.854736328125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 0.0,
+        "Flow_Accumulation": 219.0,
+        "Clay_0_5cm": 264.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 74.29896336851812,
+        "Recharge_Suitability_Class": "High",
+        "Indicative_Intervention": "Drainage-line recharge / small check structure",
+        "Intervention_Category": "Drainage-line Recharge",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 81.77716815707828,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.7119,
+        "Evidence_Support_Index": 0.8209228824273073
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.301755,
+          26.874255
+        ]
+      },
+      "properties": {
+        "Sl_No": 90,
+        "Spring Name": "Giday Source",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1277.0,
+        "Slope": 33.229244232177734,
+        "Annual_Rainfall_2023": 3244.854736328125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 164.1372134450453,
+        "Flow_Accumulation": 29.0,
+        "Clay_0_5cm": 278.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 59.08649203405994,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Contour trench / staggered trench",
+        "Intervention_Category": "Contour / Infiltration",
+        "Risk_Level": "High",
+        "Spring_Revival_Priority_Score": 47.39921236095812,
+        "Priority_Class": "Moderate Priority",
+        "Area_km2": 0.4041,
+        "Evidence_Support_Index": 0.7792873051224944
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.356015,
+          26.865241
+        ]
+      },
+      "properties": {
+        "Sl_No": 91,
+        "Spring Name": "Lampatey Gairy",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 358.35,
+        "Slope": 19.582061767578125,
+        "Annual_Rainfall_2023": 3244.854736328125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 229.1183066149344,
+        "Flow_Accumulation": 15.0,
+        "Clay_0_5cm": 241.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 54.08923026610395,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 73.48128045073712,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 2.2239,
+        "Evidence_Support_Index": 0.8812221772561716
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.271697,
+          26.877208
+        ]
+      },
+      "properties": {
+        "Sl_No": 92,
+        "Spring Name": "Mansi Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1389.48,
+        "Slope": 13.409246444702148,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Built-up",
+        "Distance_to_Drainage_m": 63.18712673996586,
+        "Flow_Accumulation": 18.0,
+        "Clay_0_5cm": 252.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 47.56081275773547,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 68.57071196369387,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.7082,
+        "Evidence_Support_Index": 0.8263435194942044
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.299277,
+          26.878624
+        ]
+      },
+      "properties": {
+        "Sl_No": 93,
+        "Spring Name": "PaniTanki Source",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1342.92,
+        "Slope": 17.153968811035156,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 0.0,
+        "Flow_Accumulation": 431.0,
+        "Clay_0_5cm": 270.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 72.87650907819881,
+        "Recharge_Suitability_Class": "High",
+        "Indicative_Intervention": "Drainage-line recharge / small check structure",
+        "Intervention_Category": "Drainage-line Recharge",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 77.49019188452397,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.0917,
+        "Evidence_Support_Index": 0.7017312448474856
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.322064,
+          26.947705
+        ]
+      },
+      "properties": {
+        "Sl_No": 94,
+        "Spring Name": "Patley Khola Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1541.41,
+        "Slope": 39.9390983581543,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 67.70408110494506,
+        "Flow_Accumulation": 4.0,
+        "Clay_0_5cm": 288.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 50.27356463275653,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Contour trench / staggered trench",
+        "Intervention_Category": "Contour / Infiltration",
+        "Risk_Level": "High",
+        "Spring_Revival_Priority_Score": 44.40760090195924,
+        "Priority_Class": "Moderate Priority",
+        "Area_km2": 0.7812,
+        "Evidence_Support_Index": 0.7727534562211981
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.271934,
+          26.87576
+        ]
+      },
+      "properties": {
+        "Sl_No": 95,
+        "Spring Name": "Pradhan Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1381.0,
+        "Slope": 14.100932121276855,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 148.76460211076738,
+        "Flow_Accumulation": 26.0,
+        "Clay_0_5cm": 255.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 53.78641032520199,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 71.07190801448692,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 1.9566,
+        "Evidence_Support_Index": 0.8059567617295308
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.2879,
+          26.90002
+        ]
+      },
+      "properties": {
+        "Sl_No": 96,
+        "Spring Name": "ShivaDhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1588.44,
+        "Slope": 35.97931289672852,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 185.53333333333333,
+        "Flow_Accumulation": 1.0,
+        "Clay_0_5cm": 274.0,
+        "Geology": "Schist",
+        "Final_Status": "LOWER_CONFIDENCE_ZONE",
+        "Confidence_Level": "Lower",
+        "Recharge_Suitability_Score": 43.11034928368856,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Contour trench / staggered trench",
+        "Intervention_Category": "Contour / Infiltration",
+        "Risk_Level": "High",
+        "Spring_Revival_Priority_Score": 22.46086351719878,
+        "Priority_Class": "Lower Priority",
+        "Area_km2": 1.7982,
+        "Evidence_Support_Index": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.2915,
+          26.909022
+        ]
+      },
+      "properties": {
+        "Sl_No": 97,
+        "Spring Name": "Simsaar Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1735.29,
+        "Slope": 28.716915130615234,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 154.61111111111111,
+        "Flow_Accumulation": 3.0,
+        "Clay_0_5cm": 274.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 52.739410877516704,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 70.49914706312383,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.7092,
+        "Evidence_Support_Index": 0.8043147208121826
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.358953,
+          26.842984
+        ]
+      },
+      "properties": {
+        "Sl_No": 98,
+        "Spring Name": "Shiva Mandir Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 547.82,
+        "Slope": 17.021469116210938,
+        "Annual_Rainfall_2023": 3244.854736328125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 202.5363979638454,
+        "Flow_Accumulation": 58.0,
+        "Clay_0_5cm": 238.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 57.37973159667865,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 68.54280697480992,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.3672,
+        "Evidence_Support_Index": 0.6617647058823529
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.284635,
+          26.872477
+        ]
+      },
+      "properties": {
+        "Sl_No": 99,
+        "Spring Name": "8 Dhuray Dhara",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1401.9,
+        "Slope": 26.14449691772461,
+        "Annual_Rainfall_2023": 3244.854736328125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 27.55190174240253,
+        "Flow_Accumulation": 43.0,
+        "Clay_0_5cm": 264.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 67.32603333603534,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 77.04185625846137,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.7911,
+        "Evidence_Support_Index": 0.7792946530147895
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.318518,
+          26.90459
+        ]
+      },
+      "properties": {
+        "Sl_No": 100,
+        "Spring Name": "JungpanaKholaSource",
+        "State": "West Bengal",
+        "District": "Darjeeling",
+        "Elevation": 1379.45,
+        "Slope": 28.2076416015625,
+        "Annual_Rainfall_2023": 3029.22314453125,
+        "LULC": "Tree cover",
+        "Distance_to_Drainage_m": 151.0046937986269,
+        "Flow_Accumulation": 20.0,
+        "Clay_0_5cm": 276.0,
+        "Geology": "Schist",
+        "Final_Status": "PRIMARY_ZONE",
+        "Confidence_Level": "Higher",
+        "Recharge_Suitability_Score": 58.83955872005554,
+        "Recharge_Suitability_Class": "Moderate",
+        "Indicative_Intervention": "Site-specific recharge assessment",
+        "Intervention_Category": "Site-specific Assessment",
+        "Risk_Level": "Low",
+        "Spring_Revival_Priority_Score": 74.20626584651427,
+        "Priority_Class": "Higher Priority",
+        "Area_km2": 0.666,
+        "Evidence_Support_Index": 0.8262162162162162
+      }
+    }
+  ]
+}

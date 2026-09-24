@@ -43,9 +43,9 @@ export const optimizerService = {
 
     const revivedCount = springsWithRevivalStatus.filter((s) => s.isRevived).length;
 
-    // Dynamic water recharge calculation based on engineering capacity
-    const baseRecharge = 1400000;
-    const variableRecharge = Math.round((budget / 4500000) * 4450000);
+    // Dynamic water recharge calculation based on engineering capacity across 100 Darjeeling springs
+    const baseRecharge = 2500000;
+    const variableRecharge = Math.round((budget / 50000000) * 18500000);
     const totalRechargeLiters = baseRecharge + variableRecharge;
 
     const costPerThousandLiters = Number(
@@ -53,8 +53,8 @@ export const optimizerService = {
     );
 
     const rechargeSurgePercent = Math.min(
-      320,
-      110 + Math.round((budget / 4500000) * 190)
+      450,
+      110 + Math.round((budget / 50000000) * 320)
     );
 
     return {
@@ -66,9 +66,9 @@ export const optimizerService = {
       totalSpringsCount: springs.length,
       fundedInterventionsCount,
       structureBreakdown: {
-        checkDams: Math.max(1, Math.min(12, Math.floor(budget / 350000))),
-        contourTrenchesKm: Number(Math.max(2, Math.min(18.5, budget / 220000)).toFixed(1)),
-        afforestationHectares: Math.max(3, Math.min(22, Math.floor(budget / 180000))),
+        checkDams: Math.max(1, Math.min(80, Math.floor(budget / 350000))),
+        contourTrenchesKm: Number(Math.max(2, Math.min(95.0, budget / 220000)).toFixed(1)),
+        afforestationHectares: Math.max(3, Math.min(120, Math.floor(budget / 180000))),
       },
       springs: springsWithRevivalStatus,
     };

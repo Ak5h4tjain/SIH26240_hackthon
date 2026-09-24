@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import HeaderHUD from './ui/HeaderHUD';
-import BudgetOptimizerPanel from './ui/BudgetOptimizerPanel';
-import SpringAnalysisPanel from './ui/SpringAnalysisPanel';
-import GISLayerControl from './ui/GISLayerControl';
-import PipelineModal from './ui/PipelineModal';
-import FieldValidationModal from './ui/FieldValidationModal';
-import ArchitectureModal from './ui/ArchitectureModal';
+import CitizenReportModal from './ui/CitizenReportModal';
+import AICopilotModal from './ui/AICopilotModal';
+import InteractiveModelLab from './ui/InteractiveModelLab';
+import ClimateScenarioSimulator from './ui/ClimateScenarioSimulator';
+import SpringComparisonModal from './ui/SpringComparisonModal';
+import GoogleMapExplorer from './map/GoogleMapExplorer';
+import WorldGlobeView from './globe/WorldGlobeView';
+import MapTiler3DView from './maptiler/MapTiler3DView';
+import StudentLearningHub from './education/StudentLearningHub';
 
 export default function DashboardUI({
   springs,
@@ -16,12 +19,11 @@ export default function DashboardUI({
   totalRechargeLiters,
   fundedInterventionsCount,
   revivedSpringsCount,
-  gisLayers,
-  onToggleLayer,
   backendConnected,
+  activeView = 'maptiler3d',
+  setActiveView,
 }) {
-  const [activeModal, setActiveModal] = useState(null); // 'pipeline' | 'field' | 'architecture' | null
-  const [activeView, setActiveView] = useState('gis');
+  const [activeModal, setActiveModal] = useState(null); // 'citizen' | 'copilot' | 'lab' | 'climate' | 'compare' | null
 
   return (
     <div className="absolute inset-0 pointer-events-none z-30 flex flex-col justify-between overflow-hidden">
@@ -32,65 +34,116 @@ export default function DashboardUI({
         revivedCount={revivedSpringsCount}
         totalSprings={springs.length}
         backendConnected={backendConnected}
-        onOpenPipeline={() => setActiveModal('pipeline')}
-        onOpenFieldValidation={() => setActiveModal('field')}
-        onOpenArchitecture={() => setActiveModal('architecture')}
+        onOpenReportModal={() => setActiveModal('citizen')}
+        onOpenAICopilot={() => setActiveModal('copilot')}
+        onOpenModelLab={() => setActiveModal('lab')}
+        onOpenClimateSim={() => setActiveModal('climate')}
+        onOpenCompare={() => setActiveModal('compare')}
         activeView={activeView}
         setActiveView={setActiveView}
       />
 
-      {/* 2. Main Floating Panels Area (Scrollable sidebars with 3D canvas interaction preserved) */}
-      <main className="flex-1 w-full px-4 sm:px-6 lg:px-8 pt-28 sm:pt-32 lg:pt-36 pb-6 flex flex-col lg:flex-row items-center lg:items-start justify-between gap-6 pointer-events-auto lg:pointer-events-none overflow-y-auto lg:overflow-hidden custom-scrollbar">
-        {/* Left Floating Sidebar: Budget & Intervention Optimizer */}
-        <div
-          onWheel={(e) => e.stopPropagation()}
-          className="pointer-events-auto w-full sm:w-auto flex flex-col gap-4 max-h-none lg:max-h-[calc(100vh-10rem)] overflow-y-visible lg:overflow-y-auto overscroll-contain pr-1 custom-scrollbar shrink-0"
-        >
-          <BudgetOptimizerPanel
-            budget={budget}
-            setBudget={setBudget}
-            totalRechargeLiters={totalRechargeLiters}
-            fundedInterventionsCount={fundedInterventionsCount}
-            revivedSpringsCount={revivedSpringsCount}
-          />
-        </div>
-
-        {/* Right Floating Sidebar: Spring Hydrogeology & AI Analysis + GIS Layers */}
-        <div
-          onWheel={(e) => e.stopPropagation()}
-          className="pointer-events-auto w-full sm:w-auto flex flex-col items-center lg:items-end gap-4 max-h-none lg:max-h-[calc(100vh-10rem)] overflow-y-visible lg:overflow-y-auto overscroll-contain pr-2 pl-1 custom-scrollbar shrink-0"
-        >
-          <SpringAnalysisPanel
+      {/* 2. Dynamic View Rendering (4 Streamlined Modes) */}
+      {activeView === 'maptiler3d' ? (
+        /* View 1: MapTiler 3D Mountain Terrain View (Himalayan Pilot) */
+        <div className="flex-1 w-full h-full pointer-events-auto">
+          <MapTiler3DView
             springs={springs}
             selectedSpring={selectedSpring}
             onSelectSpring={onSelectSpring}
             budget={budget}
-            onOpenFieldValidation={() => setActiveModal('field')}
-          />
-
-          {/* GIS Layer Control docked right below */}
-          <GISLayerControl
-            layers={gisLayers}
-            onToggleLayer={onToggleLayer}
+            onOpenAICopilot={(sp) => {
+              if (sp) onSelectSpring(sp);
+              setActiveModal('copilot');
+            }}
+            onOpenReportModal={(sp) => {
+              if (sp) onSelectSpring(sp);
+              setActiveModal('citizen');
+            }}
+            onSwitchToGlobe={() => setActiveView('globe')}
+            onSwitchToGoogleMap={() => setActiveView('googlemap')}
           />
         </div>
-      </main>
+      ) : activeView === 'globe' ? (
+        /* View 2: 3D World Globe Map (Global Scale) */
+        <div className="flex-1 w-full h-full pointer-events-auto">
+          <WorldGlobeView
+            onDiveToDarjeeling={() => setActiveView('maptiler3d')}
+            onSwitchToGoogleMap={() => setActiveView('googlemap')}
+            onSwitchToBigMap={() => setActiveView('googlemap')}
+          />
+        </div>
+      ) : activeView === 'googlemap' ? (
+        /* View 3: Fullscreen Google Maps Explorer (All 100 Springs) */
+        <div className="flex-1 w-full h-full pointer-events-auto">
+          <GoogleMapExplorer
+            springs={springs}
+            selectedSpring={selectedSpring}
+            onSelectSpring={onSelectSpring}
+            budget={budget}
+            onSwitchTo3D={() => setActiveView('maptiler3d')}
+            onSwitchToGlobe={() => setActiveView('globe')}
+            onOpenReportModal={() => setActiveModal('citizen')}
+            onOpenAICopilot={(sp) => {
+              if (sp) onSelectSpring(sp);
+              setActiveModal('copilot');
+            }}
+          />
+        </div>
+      ) : (
+        /* View 4: Youth & Student Water Discovery Hub */
+        <div className="flex-1 w-full h-full pointer-events-auto">
+          <StudentLearningHub
+            onSwitchToMap={() => setActiveView('googlemap')}
+            onSwitchTo3D={() => setActiveView('maptiler3d')}
+          />
+        </div>
+      )}
 
-      {/* 3. Modals & Drawers */}
-      <PipelineModal
-        isOpen={activeModal === 'pipeline'}
+      {/* 3. Citizen Spring Observation Modal */}
+      <CitizenReportModal
+        isOpen={activeModal === 'citizen'}
         onClose={() => setActiveModal(null)}
-      />
-
-      <FieldValidationModal
-        isOpen={activeModal === 'field'}
-        onClose={() => setActiveModal(null)}
+        springs={springs}
         selectedSpring={selectedSpring}
       />
 
-      <ArchitectureModal
-        isOpen={activeModal === 'architecture'}
+      {/* 4. Advanced Interactive AI & Simulation Modals */}
+      <AICopilotModal
+        isOpen={activeModal === 'copilot'}
         onClose={() => setActiveModal(null)}
+        selectedSpring={selectedSpring}
+        onSelectSpring={onSelectSpring}
+        onSwitchTo3D={() => {
+          setActiveModal(null);
+          setActiveView('maptiler3d');
+        }}
+        onSwitchToBigMap={() => {
+          setActiveModal(null);
+          setActiveView('googlemap');
+        }}
+      />
+
+      <InteractiveModelLab
+        isOpen={activeModal === 'lab'}
+        onClose={() => setActiveModal(null)}
+        initialSpring={selectedSpring}
+      />
+
+      <ClimateScenarioSimulator
+        isOpen={activeModal === 'climate'}
+        onClose={() => setActiveModal(null)}
+        onSelectSpring={(sp) => {
+          onSelectSpring(sp);
+          setActiveModal(null);
+        }}
+      />
+
+      <SpringComparisonModal
+        isOpen={activeModal === 'compare'}
+        onClose={() => setActiveModal(null)}
+        springs={springs}
+        initialSpring={selectedSpring}
       />
     </div>
   );
