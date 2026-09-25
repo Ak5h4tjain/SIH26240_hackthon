@@ -311,6 +311,11 @@ For thorough evaluations, review the documents in [`docs/`](docs/):
 ## 👥 Contributors & Team
 
 * **Akshat Jain** ([@Ak5h4tjain](https://github.com/Ak5h4tjain))
+* **Navanshi Jain** ([@navanshi-jain](https://github.com/navanshi-jain))
+* **Ridhima Gupta** ([@ridhimagupta-rig](https://github.com/ridhimagupta-rig))
+* **Pari Sharma** ([@parisharmaaa](https://github.com/parisharmaaa))
+* **Nilesh Vishwakarma** ([@NileshVishwakarma-717]((https://github.com/NileshVishwakarma-717))
 * **Sagar Singh** ([@Sagar245341](https://github.com/Sagar245341))
+
 
 Developed with pride for the **Smart India Hackathon (SIH 2024)**. 🇮🇳
