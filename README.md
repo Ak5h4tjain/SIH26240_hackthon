@@ -314,7 +314,7 @@ For thorough evaluations, review the documents in [`docs/`](docs/):
 * **Navanshi Jain** ([@navanshi-jain](https://github.com/navanshi-jain))
 * **Ridhima Gupta** ([@ridhimagupta-rig](https://github.com/ridhimagupta-rig))
 * **Pari Sharma** ([@parisharmaaa](https://github.com/parisharmaaa))
-* **Nilesh Vishwakarma** ([@NileshVishwakarma-717]((https://github.com/NileshVishwakarma-717))
+* **Nilesh Vishwakarma** ([@NileshVishwakarma-717](https://github.com/NileshVishwakarma-717))
 * **Sagar Singh** ([@Sagar245341](https://github.com/Sagar245341))
 
 
