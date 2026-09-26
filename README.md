@@ -2,7 +2,7 @@
 ### AI/ML-Driven Decision Support System for Springshed Management & Himalayan Spring Revival
 **Pilot Implementation: Darjeeling Hills District, West Bengal (Catchment Area: 111.04 km² | 100 Springs)**
 
-[![SIH Problem Statement](https://img.shields.io/badge/SIH%202024-Problem%20ID%20SIH26240-00f5ff?style=for-the-badge&logo=target)](https://sih.gov.in)
+[![SIH Problem Statement](https://img.shields.io/badge/SIH%202026-Problem%20ID%20SIH26240-00f5ff?style=for-the-badge&logo=target)](https://sih.gov.in)
 [![License](https://img.shields.io/badge/License-MIT-emerald?style=for-the-badge)](LICENSE)
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.2-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
